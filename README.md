@@ -1,2 +1,2 @@
 # Translations
-Translations for Novoline 2.0
+Translations for Novoline 2.0+
