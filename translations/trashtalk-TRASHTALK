@@ -2,10 +2,10 @@
 main_menu.gui.singleplayer=Singleplayer
 main_menu.gui.multiplayer=Multiplayer
 main_menu.gui.alt_manager=Account Manager
-main_menu.gui.options=Options
+main_menu.gui.options=Settings
 main_menu.gui.quit_game=EZ rage kid
-main_menu.gui.documentation=Documentation
-main_menu.gui.switch_image=Swich image
+main_menu.gui.documentation=Docs
+main_menu.gui.switch_image=Switch Backgroud
 main_menu.gui.release_build=Release Build %s
 
 # Account Manager - Main Page
@@ -176,18 +176,18 @@ feature.disabler.notification.not_available.text=Not available on %s
 feature.disabler.notification.fly.text=You can fly now!
 
 # Game - HypixelStats
-feature.hypixelstats.play_time=Play time
-feature.hypixelstats.kills=Kills
-feature.hypixelstats.wins=Wins
+feature.hypixelstats.play_time=Ownage time
+feature.hypixelstats.kills=EZZZZ kids
+feature.hypixelstats.wins=Total EZness
 feature.hypixelstats.games_played=Games played
-feature.hypixelstats.staff_bans_since_login=Total bans
+feature.hypixelstats.staff_bans_since_login=Total Config Issues
 feature.hypixelstats.notification.not_available.text=Not available %s
 feature.hypixelstats.notification.not_available.singleplayer=in Singleplayer
 feature.hypixelstats.notification.not_available.server=on %s
 feature.hypixelstats.notification.ban_status.title=Staff Checks
-feature.hypixelstats.notification.ban_status.banned=Staff has banned %d players since the last %s
-feature.hypixelstats.notification.ban_status.unbanned=Staff has unbanned %d players since the last %s
-feature.hypixelstats.notification.ban_status.not_changed=Staff hasn't banned anyone since the last %s
+feature.hypixelstats.notification.ban_status.banned=Staff have coped and banned %d players since the last %s
+feature.hypixelstats.notification.ban_status.unbanned=Staff has uncoped %d players since the last %s
+feature.hypixelstats.notification.ban_status.not_changed=Staff hasn't coped since the last %s
 feature.hypixelstats.error.initial_ban_check_failed=Unable to complete initial ban check. Retrying later
 feature.hypixelstats.error.ban_check_failed=Check ban request failed: %s
 
