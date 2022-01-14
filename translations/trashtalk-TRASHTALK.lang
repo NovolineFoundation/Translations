@@ -1,7 +1,7 @@
 # Main Menu
-main_menu.gui.singleplayer=Singleplayer
-main_menu.gui.multiplayer=Multiplayer
-main_menu.gui.alt_manager=Account Manager
+main_menu.gui.singleplayer=Offline/Configing
+main_menu.gui.multiplayer=Online
+main_menu.gui.alt_manager=Alt Accounts
 main_menu.gui.options=Settings
 main_menu.gui.quit_game=EZ rage kid
 main_menu.gui.documentation=Docs
@@ -9,17 +9,17 @@ main_menu.gui.switch_image=Switch Backgroud
 main_menu.gui.release_build=Release Build %s
 
 # Account Manager - Main Page
-account_manager.gui.header=Account Manager
+account_manager.gui.header=Alt Account Manager
 account_manager.gui.log_in.button=Log In
 account_manager.gui.add_alt.button=Add Alt
 account_manager.gui.remove_alt.button=Remove Alt
 account_manager.gui.direct_login.button=Direct Login
 account_manager.gui.generate.button=Generate
-account_manager.gui.thealtening.button=TheAltening...
+account_manager.gui.thealtening.button=TheShitening
 
-# Account Manager - TheAltening Settings
-account_manager.gui.thealtening.title=TheAltening Settings
-account_manager.gui.thealtening.token=TheAltening token
+# Account Manager - TheShitening Settings
+account_manager.gui.thealtening.title=TheShitening Settings
+account_manager.gui.thealtening.token=TheShitening token
 account_manager.gui.thealtening.copy_token=Copy free Alt Token
 
 # Account Manager - Add Alt
@@ -49,21 +49,21 @@ account_manager.gui.entry.microsoft=Microsoft account
 account_manager.gui.entry.top_stats=Rank: %s  Level: %d
 account_manager.gui.entry.loading_profile=Loading profile...
 account_manager.gui.entry.banned_on=Banned on %s
-account_manager.gui.entry.permanently_banned=Permanently banned
-account_manager.gui.entry.unbanned_in=Unbanned in %02d:%02d:%02d:%02d
+account_manager.gui.entry.permanently_banned=EZ perma ban
+account_manager.gui.entry.unbanned_in=Hypixel Shittable in %02d:%02d:%02d:%02d
 
 # Account Manager - Login Notifications
-account_manager.login_handling.notification.title=Account Manager
+account_manager.login_handling.notification.title=Alt Account Manager
 account_manager.login_handling.logging_in.notification.body=Logging in to account...
 account_manager.login_handling.invalid_account.notification.body=This account is invalid, you can't log into it!
 account_manager.login_handling.invalid_credentials.notification.body=Invalid credentials!
 account_manager.login_handling.logged_in.notification.body=Logged in! Username: %s
-account_manager.marked_as_banned.notification.body=Marked account as banned
+account_manager.marked_as_banned.notification.body=Marked account as shit on
 
 # Account Manager - TheAltening Notifications
-account_manager.generating_account.notification.title=Account Manager
-account_manager.generating_account.notification.body=Generating account...
-account_manager.thealtening.invalid_token.notification.title=Account Manager
+account_manager.generating_account.notification.title=Alt Account Manager
+account_manager.generating_account.notification.body=Shitting out an account...
+account_manager.thealtening.invalid_token.notification.title=Alt Account Manager
 account_manager.thealtening.invalid_token.notification.body=Token is not specified! Please enter a valid token
 account_manager.thealtening.unable_to_generate.notification.title=Error
 account_manager.thealtening.unable_to_generate.notification.body=Couldn't generate the account. Invalid token?
@@ -103,7 +103,7 @@ command.bind.press_type.press=press
 command.bind.press_type.hold=hold
 
 # Game - Configs
-command.config.listempty=Config list is empty.
+command.config.listempty=Config list is empty, imagine.
 command.config.cfglist=Configs(§3%s§7): §3%s
 command.config.cfg_not_found=Config §3'%s'§7 not found!
 command.config.cfg_already_exists=Config §3'%s'§7 already exists.
@@ -172,12 +172,12 @@ feature.auto_disable.notification.disabled_due=Was disabled due to %s
 feature.auto_disable.notification.enabled_due=Was enabled because %s was disabled
 
 # Game - Disabler
-feature.disabler.notification.not_available.text=Not available on %s
+feature.disabler.notification.not_available.text=Not able to use on %s
 feature.disabler.notification.fly.text=You can fly now!
 
 # Game - HypixelStats
-feature.hypixelstats.play_time=Ownage time
-feature.hypixelstats.kills=EZZZZ kids
+feature.hypixelstats.play_time=Ownage Time
+feature.hypixelstats.kills=EZZZZs
 feature.hypixelstats.wins=Total EZness
 feature.hypixelstats.games_played=Games played
 feature.hypixelstats.staff_bans_since_login=Total Config Issues
@@ -194,12 +194,12 @@ feature.hypixelstats.error.ban_check_failed=Check ban request failed: %s
 # Game - KillAura
 feature.killaura.disable_rules.notification.game_end=Was disabled due to game end
 feature.killaura.disable_rules.notification.world_change=Was disabled due to world change
-feature.killaura.disable_rules.notification.death=Was disabled due to death
+feature.killaura.disable_rules.notification.death=Was disabled due to coping too hard
 
 # Game - Notifications
 notification.type.info=Information
-notification.type.warning=Warning
-notification.type.error=Error
+notification.type.warning=Beware
+notification.type.error=Shitter Moment
 notification.type.success=Success
 
 notification.text.feature_enabled=Feature '%s' was enabled
@@ -210,31 +210,31 @@ feature.lagdetector.msg=Connection problem!
 
 # Game - AutoHypixel
 feature.autohypixel.auto_play.notification.sending=Sending you to the next game in %sms
-feature.autohypixel.auto_phase.notification.phased=Attempted to phase out of cage
+feature.autohypixel.auto_phase.notification.phased=Attempted to shit out of the cage
 
 # Game - DiscordRPC
-feature.discordrpc.notification.no_connection=No connection with Discord
+feature.discordrpc.notification.no_connection=No connection with Discord, lmfao
 
 # Game - LongJump
-feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" requires a bow in inventory
+feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" requires a bow in inventory you dumbass
 
 # Game - Speed
-feature.speed.notification.lag_back=Was disabled due to lag-back
+feature.speed.notification.lag_back=Was disabled due to Watchdog Coping
 
 # Game - AntiVoid
-feature.antivoid.notification.enabled_scaffold=Enabled Scaffold to prevent death by void
+feature.antivoid.notification.enabled_scaffold=Enabled Scaffold to prevent death by coping too hard
 
 # Game - AutoArmor
 feature.autoarmor.disable_rules.notification.game_end=Was disabled due to game end
 feature.autoarmor.disable_rules.notification.world_change=Was disabled due to world change
-feature.autoarmor.disable_rules.notification.death=Was disabled due to death
+feature.autoarmor.disable_rules.notification.death=Was disabled due to coping
 
 # Game - InventoryManager
 feature.inventorymanager.disable_rules.notification.game_end=Was disabled due to game end
 feature.inventorymanager.disable_rules.notification.world_change=Was disabled due to world change
-feature.inventorymanager.disable_rules.notification.death=Was disabled due to death
+feature.inventorymanager.disable_rules.notification.death=Was disabled due to coping
 
 # Game - Scaffold
 feature.scaffold.disable_rules.notification.game_end=Was disabled due to game end
 feature.scaffold.disable_rules.notification.world_change=Was disabled due to world change
-feature.scaffold.disable_rules.notification.death=Was disabled due to death
+feature.scaffold.disable_rules.notification.death=Was disabled due to coping
