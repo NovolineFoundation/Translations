@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Jeden gracz
+main_menu.gui.multiplayer=Wielosobowy
+main_menu.gui.alt_manager=Menadżer kont
+main_menu.gui.options=Opcje
+main_menu.gui.quit_game=Wyjdz z gry
+main_menu.gui.documentation=Dokumentacja
+main_menu.gui.switch_image=Zmien zdjęcie
+main_menu.gui.release_build=Wersja %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Menadżer kont
+account_manager.gui.log_in.button=Zaloguj
+account_manager.gui.add_alt.button=Dodaj alta
+account_manager.gui.remove_alt.button=Usuń alta
+account_manager.gui.direct_login.button=Zaloguj bezpośrednio
+account_manager.gui.generate.button=Generuj
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=Ustawienia TheAltening
+account_manager.gui.thealtening.token=Token TheAltening
+account_manager.gui.thealtening.copy_token=Skopiuj darmowy alt token
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Dodaj konto
+account_manager.gui.add_account.add=Dodaj konto
+account_manager.gui.account_action.email=Email / username
+account_manager.gui.account_action.password=Password
+account_manager.gui.account_action.import=Skopiuj z schowka
+account_manager.gui.account_action.random_cracked=Randomowy nick
+account_manager.gui.account_action.microsoft_account=Dodaj Microsoft konto
+
+account_manager.notification.login.empty_account.body=Nie da się dodać pustego konta!
+account_manager.notification.login.import_error.body=Zły importowany format!
+
+account_manager.gui.account_action.microsoft_account.title=Dodawanie konta...
+account_manager.gui.account_action.microsoft_account.body=Zaloguj sie na otwartym oknie
+account_manager.gui.account_action.microsoft_account.cancel=Anuluj
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Zaloguj bezpośrednio
+account_manager.gui.direct_login.login=Zaloguj
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Unknown>
+account_manager.gui.entry.cracked=Cracked account
+account_manager.gui.entry.microsoft=Microsoft account
+account_manager.gui.entry.top_stats=Ranga: %s  Lvl: %d
+account_manager.gui.entry.loading_profile=Ładowanie profilu...
+account_manager.gui.entry.banned_on=Zbanowane na %s
+account_manager.gui.entry.permanently_banned=Zbanowane na zawsze
+account_manager.gui.entry.unbanned_in=Ban będzie trwał %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Menadżer kont
+account_manager.login_handling.logging_in.notification.body=Logowanie na konto...
+account_manager.login_handling.invalid_account.notification.body=To konto nie działa, nie możesz się do niego zalogować!
+account_manager.login_handling.invalid_credentials.notification.body=Złe dane!
+account_manager.login_handling.logged_in.notification.body=Zalogowano! Nick: %s
+account_manager.marked_as_banned.notification.body=Oznaczono konto jako zablokowane
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Menadżer kont
+account_manager.generating_account.notification.body=Generowanie konta...
+account_manager.thealtening.invalid_token.notification.title=Menadżer kont
+account_manager.thealtening.invalid_token.notification.body=Token nie jest podany, podaj go
+account_manager.thealtening.unable_to_generate.notification.title=Błąd
+account_manager.thealtening.unable_to_generate.notification.body=Nie mogę wygenerować konta, może zły token?
+account_manager.thealtening.generated.notification.title=Sukces
+account_manager.thealtening.generated.notification.body=Wygenerowano konto %s
+
+# Game - Greeting Message
+greeting.line_1=Witaj %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=Aby zbindować klawisz wpisz ".bind <moduł> <klawisz>" na chacie
+greeting.line_4=  Też możesz zbindować klawisz w ClickGUI
+greeting.line_5=  poprzez klikanie środkowego przycisku.
+greeting.line_6=Aby uzyskać pomoc z komendami wpisz ".help" na chacie
+greeting.line_7=Aby pobrać config skopiuj link (configu) i napisz
+greeting.line_8=".cfg download <link>" na chacie
+
+# Game - Command errors
+command.wrong_command=§cKomenda nie znaleziona.
+command.similar_commands=§cPodobne polecenia:
+command.wrong_arguments=§cNieprawidłowe argumenty poleceń!
+command.error=§cNie można wykonać komendy. Sprawdź składnię i spróbuj ponownie.
+
+# Game - Toggle
+command.toggle.on=Feature §3'%s'§7 został §aWłączony§7.
+command.toggle.off=Feature §3'%s'§7 został §cWyłączony§7.
+command.toggle.not_found=§cFunkcji '%s' nie znaleziono.
+
+# Game - Binds
+command.bind.unbound=Funkcja §3'%s' §7został odbinowany.
+command.bind.bound=Funkcja §3'%s' §7was bound to §3'%s'§7, activation§7 method: §3%s§7.
+command.bind.wrong_key=§cZły klawisz!
+command.bind.wrong_feature_name=§cZła nazwa funkcji!
+command.bind.bindlist_empty=Lista bindów jest pusta.
+command.bind.cleared=Lista bindów wyczyszczona.
+command.bind.invalid_press_type=§cŹle klinołeś: %s.
+command.bind.press_type.press=kliknij
+command.bind.press_type.hold=przytrzymaj
+
+# Game - Configs
+command.config.listempty=Lista configów jest pusta.
+command.config.cfglist=Config(§3%s§7): §3%s
+command.config.cfg_not_found=Config §3'%s'§7 nie znaleziony!
+command.config.cfg_already_exists=Config §3'%s'§7 już istnieje.
+command.config.cfg_already_exists2=Użyj §3'.cfg save <name> force'§7 aby go zapisać na tą samą nazwę.
+command.config.cfg_saved=Config §3'%s'§7 został zapisany.
+command.config.cfg_loaded=Config §3'%s'§7 został załadowany.
+command.config.reset=Config został zresetowany.
+
+# Game - Relations
+command.relations.added=§fDodany %s jako §a%s§f!
+command.relations.invalid_type=§cNieprawidłowy typ relacji: §7%s. §Do wybrania typy: §7friend, target
+command.relations.io_error=§cNie można zapisać relacji z powodu błędu.
+command.relations.list=§fZapisane relacje §7(%d):
+command.relations.list_filter=§fRelacje - §a%s §7(%d):
+command.relations.list_empty=Nie zapisałeś żadnych relacji.
+command.relations.list_empty_filter=Nie ma żadnych relacji typu §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§cUsunięto §7%s §cz listy relacji.
+command.relations.clear=§fUsunięto wszystkie relacje!
+command.relations.clear_filter=§fUsunięto wszystkie relacje typu %s!
+command.relations.help_p1=§f .t/.f to komendy aby wybrać typ relacji (target, friend) -
+command.relations.help_p2=§f nie musisz określać [typ], jeśli ich używasz!
+
+# Game - Plugins
+command.plugins.req_sent=§7Próbuje znaleźć pluginy...
+command.plugins.not_found=§cNie znaleziono!.
+command.plugins.no_response=§cNie znaleziono pluginów §7(serwer nie odpowiada)
+command.plugins.list=§bPlugin: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=Lista wiadomości:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Wiadomości wyczyszczone.
+command.gen_messages.added=Wiadomość dodana.
+command.gen_messages.removed=Wiadomość usunięta.
+command.gen_messages.remove_out_of_bounds=Nieprawidłowy indeks. Wpisz %s list, aby wyświetlić indeksy wiadomości
+
+command.gen_messages.usage_1=.%s list - list wiadomości
+command.gen_messages.usage_2=.%s clear - czyści wiadomości(usuwa wszystkie)
+command.gen_messages.usage_3=.%s add <message> - dodaje wiadomość
+command.gen_messages.usage_4=.%s remove <index> - usuwa wiadomość
+command.gen_messages.usage_5=.%s browse - otwórz lokalizację pliku wiadomości
+
+command.gen_messages.usage_ph=Symbole zastępcze w wiadomościach:
+command.gen_messages.usage_ph_1= {c_version} - wersja clienta
+command.gen_messages.usage_ph_2= {c_build} - data wydania clienta
+command.gen_messages.usage_ph_3= {u_username} - twój nick
+command.gen_messages.usage_ph_4= {u_uid} - twoje uid
+
+command.killsults.ph_1= {player} - imię gracza
+
+command.setting.help_append_silent=§fDołącz §b-s§f na końcu polecenia, aby usunąć dane wyjściowe.
+command.setting.invalid_signature=§cNie prawidłowe ustawienia.
+command.setting.parse_failed=§cNie można przeanalizować wartości ustawienia: oczekiwany §f%s§c, otrzymał §f%s§c.
+command.setting.type_number=liczba
+command.setting.type_decimal=liczba dziesiętna
+command.setting.invalid_value=§cNie można ustawić wartości ustawienia: %s.
+command.setting.mcb.updated_value=§fStan §b%s§f został ustawiony na §b%s§f.
+command.setting.color.invalid_rgb=§cNieprawidłowa wartość koloru RGB: oczekiwany argument taki jak 255 255 255.
+command.setting.invalid_type=§cNieprawidłowy typ ustawienia: %s.
+command.setting.updated_value=§fWartość §b%s§f została ustawiona na §b%s§f.
+command.setting.updated_value_generic=§fWartość §b%s§f została zaktualizowana.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=Został wyłączony z powodu %s
+feature.auto_disable.notification.enabled_due=Został włączony, ponieważ %s został wyłączony
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Niedostępne na %s
+feature.disabler.notification.fly.text=Możesz latać teraz!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Czas gry
+feature.hypixelstats.kills=Kile
+feature.hypixelstats.wins=Winy
+feature.hypixelstats.games_played=Gry zagrane
+feature.hypixelstats.staff_bans_since_login=Całkowita liczba banów
+feature.hypixelstats.notification.not_available.text=Niedostępne %s
+feature.hypixelstats.notification.not_available.singleplayer=na singlu
+feature.hypixelstats.notification.not_available.server=na %s
+feature.hypixelstats.notification.ban_status.title=Informacja Staff
+feature.hypixelstats.notification.ban_status.banned=Admini zbanowali %d graczy w ostatnie %s
+feature.hypixelstats.notification.ban_status.unbanned=Admini odbanowali %d graczy w ostatnie %s
+feature.hypixelstats.notification.ban_status.not_changed=Admini nikogo nie zbanowali w ostatnie %s
+feature.hypixelstats.error.initial_ban_check_failed=Błąd czytania danych
+feature.hypixelstats.error.ban_check_failed=Próba sprawdzenia bana, nie powiodła się: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=Została wyłączona z powodu końca gry
+feature.killaura.disable_rules.notification.world_change=Została wyłączona z powodu zmiany świata
+feature.killaura.disable_rules.notification.death=Została wyłączona z powodu śmierci
+
+# Game - Notifications
+notification.type.info=Informacje
+notification.type.warning=Ostrzeżenia
+notification.type.error=Błąd
+notification.type.success=Sukces
+
+notification.text.feature_enabled=Funkcja '%s' została włączona
+notification.text.feature_disabled=Fukcja '%s' została wyłączona
+
+# Game - LagDetector
+feature.lagdetector.msg=Problem łączenia!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Idę do nastepnej gry za %sms
+feature.autohypixel.auto_phase.notification.phased=Próba ucieczki z klatki skywars
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Nie ma połączenia z discordem
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Wybrany przez ciebie tryb "HypixelBow" potrzbuje łuku
+
+# Game - Speed
+feature.speed.notification.lag_back=Został wyłączony z powodu laga
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=Włączono Scaffold aby zapobiec śmieci w voidzie
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=Został wyłączony z powodu końca gry
+feature.autoarmor.disable_rules.notification.world_change=Został wyłaczony z powodu zmiany świata
+feature.autoarmor.disable_rules.notification.death=Został wyłączony z powodu śmierci
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Został wyłączony z powodu końca gry
+feature.inventorymanager.disable_rules.notification.world_change=Został wyłaczony z powodu zmiany świata
+feature.inventorymanager.disable_rules.notification.death=Został wyłączony z powodu śmierci
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Został wyłączony z powodu końca gry
+feature.scaffold.disable_rules.notification.world_change=Został wyłaczony z powodu zmiany świata
+feature.scaffold.disable_rules.notification.death=Został wyłączony z powodu śmierci
