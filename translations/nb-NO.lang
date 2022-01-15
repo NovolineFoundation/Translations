@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Enspiller
+main_menu.gui.multiplayer=Flerspiller
+main_menu.gui.alt_manager=Konto Oversikt
+main_menu.gui.options=Instillinger
+main_menu.gui.quit_game=Avslutt Spill
+main_menu.gui.documentation=Dokumentasjon
+main_menu.gui.switch_image=Bytt Bakgrunn
+main_menu.gui.release_build=Versjon %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Brukeroversikt
+account_manager.gui.log_in.button=Logg Inn
+account_manager.gui.add_alt.button=Legg til Bruker
+account_manager.gui.remove_alt.button=Fjern Bruker
+account_manager.gui.direct_login.button=Direkte Innlogging
+account_manager.gui.generate.button=Generer Bruker
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening-instillinger
+account_manager.gui.thealtening.token=TheAltening-token
+account_manager.gui.thealtening.copy_token=Kopier Gratisbrukertoken
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Legg til bruker
+account_manager.gui.add_account.add=Legg til bruker
+account_manager.gui.account_action.email=Email / Brukernavn
+account_manager.gui.account_action.password=Passord
+account_manager.gui.account_action.import=Importer fra utklippstavlen
+account_manager.gui.account_action.random_cracked=Tilfeldig Cracket Bruker
+account_manager.gui.account_action.microsoft_account=Legg til Microsoft-bruker
+
+account_manager.notification.login.empty_account.body=Kan ikke legge til en tom bruker
+account_manager.notification.login.import_error.body=Feil Importformat!
+
+account_manager.gui.account_action.microsoft_account.title=Legger til bruker...
+account_manager.gui.account_action.microsoft_account.body=Et vindu har blitt åpnet der du kan logge inn
+account_manager.gui.account_action.microsoft_account.cancel=Avbryt
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Direkte Innlogging
+account_manager.gui.direct_login.login=Logg Inn
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Ukjent>
+account_manager.gui.entry.cracked=Cracket Bruker
+account_manager.gui.entry.microsoft=Microsoft-bruker
+account_manager.gui.entry.top_stats=Rank: %s  Level: %f
+account_manager.gui.entry.loading_profile=Laster profil...
+account_manager.gui.entry.banned_on=Utestengt på %s
+account_manager.gui.entry.permanently_banned=Permanent Utestengt
+account_manager.gui.entry.unbanned_in=Utestengelse oppheves om %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Brukeroversikt
+account_manager.login_handling.logging_in.notification.body=Logger på bruker...
+account_manager.login_handling.invalid_account.notification.body=Denne bruker er ugyldig, du kan ikke logge inn!
+account_manager.login_handling.invalid_credentials.notification.body=Ugyldig Brukerlegitimasjon!
+account_manager.login_handling.logged_in.notification.body=Logget på! Brukernavn: %s
+account_manager.marked_as_banned.notification.body=Markerte bruker som utestengt
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Brukeroversikt
+account_manager.generating_account.notification.body=Genererer Bruker...
+account_manager.thealtening.invalid_token.notification.title=Konto Oversikt
+account_manager.thealtening.invalid_token.notification.body=Token er ikke spesifisert! Vennligst skriv inn en gyldig token
+account_manager.thealtening.unable_to_generate.notification.title=Noe galt skjedde
+account_manager.thealtening.unable_to_generate.notification.body=Kunne ikke generere kontoen. Ugyldig token?
+account_manager.thealtening.generated.notification.title=Suksess
+account_manager.thealtening.generated.notification.body=Generert konto %s
+
+# Game - Greeting Message
+greeting.line_1=Velkommen Til %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=For å binde moduler, skriv ".bind <modul> <tastebinding>" i chatten
+greeting.line_4=  I tillegg kan du binde moduler i ClickGUIen
+greeting.line_5=  ved å trykke på scrollehjulet.
+greeting.line_6=For hjelp med kommandoer, skriv ".help" i chatten
+greeting.line_7=For å laste ned konfigurasjoner fra Discord-serveren, kopier
+greeting.line_8=konfigurasjonslenken og skriv ".cfg download <link>" i chatten
+
+# Game - Command errors
+command.wrong_command=§cUgyldig kommando.
+command.similar_commands=§cLignende kommandoer:
+command.wrong_arguments=§cUgyldige kommandoargumenter!
+command.error=§cKan ikke utføre kommandoen. Sjekk syntaksen og prøv igjen.
+
+# Game - Toggle
+command.toggle.on=Modulen §3'%s'§7 ble skrudd §aPÅ§7.
+command.toggle.off=Modulen §3'%s'§7 ble skrudd §cAV§7.
+command.toggle.not_found=§cModul '%s' ble ikke funnet.
+
+# Game - Binds
+command.bind.unbound=Modul §3'%s' §7ubundet.
+command.bind.bound=Modul §3'%s' §7bundet til §3'%s'§7, §7aktiveringsmetode: §3%s§7.
+command.bind.wrong_key=§cUgyldig tastekode!
+command.bind.wrong_feature_name=§cUgyldig Modulnavn!
+command.bind.bindlist_empty=Bindingslisten er tom.
+command.bind.cleared=Bindingsliste slettet.
+command.bind.invalid_press_type=§cUgyldig aktiveringsmetode: %s.
+command.bind.press_type.press=Trykk
+command.bind.press_type.hold=Hold
+
+# Game - Configs
+command.config.listempty=Konfigurasjonslisten er tom.
+command.config.cfglist=Konfigurasjoner(§3%s§7): §3%s
+command.config.cfg_not_found=Konfigurasjon §3'%s'§7 ikke funnet!
+command.config.cfg_already_exists=Konfigurasjon §3'%s'§7 eksisterer allerede.
+command.config.cfg_already_exists2=Bruk §3'.cfg save <navn> force'§7 for å omskrive den.
+command.config.cfg_saved=Konfigurasjon §3'%s'§7 ble lagret.
+command.config.cfg_loaded=Config §3'%s'§7 ble lastet inn.
+command.config.reset=Konfigurasjon tilbakestilt.
+
+# Game - Relations
+command.relations.added=§fLagt til %s som §a%s§f!
+command.relations.invalid_type=§cUgyldig relasjonstype: §7%s. §cStøttede typer: §7friend, target
+command.relations.io_error=§cKunne ikke lagre relasjoner på grunn av en feil.
+command.relations.list=§fRelasjoner §7(%d):
+command.relations.list_filter=§fRelasjoner - §a%s §7(%d):
+command.relations.list_empty=Det er ingen relasjoner.
+command.relations.list_empty_filter=Det er ingen relasjoner av typen §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§cFjernet §7%s §cfra relasjonslisten.
+command.relations.clear=§fFjernet alle relasjoner!
+command.relations.clear_filter=§fFjernet alle relasjoner av typen %s!
+command.relations.help_p1=§f .t/.f er kommandoer som spesifiserer relasjonstypen -
+command.relations.help_p2=§f du trenger ikke spesifisere [type] hvis du bruker dem!
+
+# Game - Plugins
+command.plugins.req_sent=§7Forsøker å finne plugins...
+command.plugins.not_found=§cIngen plugins funnet.
+command.plugins.no_response=§cIngen plugins funnet §7(Serveren svarte ikke)
+command.plugins.list=§bPlugins: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=Meldingsliste:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Meldinger slettet.
+command.gen_messages.added=Melding lagt til.
+command.gen_messages.removed=Meldingen er fjernet.
+command.gen_messages.remove_out_of_bounds=Ugyldig indeks. Skriv inn %s list for å se meldingsindekser
+
+command.gen_messages.usage_1=.%s list - vis meldinger
+command.gen_messages.usage_2=.%s clear - fjern meldinger
+command.gen_messages.usage_3=.%s add <melding> - legg til en melding
+command.gen_messages.usage_4=.%s remove <indeks> - fjern en melding
+command.gen_messages.usage_5=.%s browse - åpne meldingsfilplassering
+
+command.gen_messages.usage_ph=Plassholdere i meldinger:
+command.gen_messages.usage_ph_1= {c_version} - klientversjon
+command.gen_messages.usage_ph_2= {c_build} - klientbyggdato
+command.gen_messages.usage_ph_3= {u_username} – brukernavnet ditt
+command.gen_messages.usage_ph_4= {u_uid} - UIDen din
+
+command.killsults.ph_1= {player} - spillerens navn
+
+command.setting.help_append_silent=§fLegg til §b-s§f på slutten av kommandoen for å fjerne utdata.
+command.setting.invalid_signature=§cUgyldig innstillingsnøkkel.
+command.setting.parse_failed=§cKunne ikke parse innstillingsverdien: forventet §f%s§c, fikk §f%s§c.
+command.setting.type_number=nummer
+command.setting.type_decimal=desimaltall
+command.setting.invalid_value=§cKunne ikke angi innstillingsverdien: %s.
+command.setting.mcb.updated_value=§fStatus for §b%s§f ble satt til §b%s§f.
+command.setting.color.invalid_rgb=§cUgyldig RGB-fargeverdi: forventet et argument som 255,255,255.
+command.setting.invalid_type=§cUgyldig innstillingstype: %s.
+command.setting.updated_value=§fVerdien av §b%s§f ble satt til §b%s§f.
+command.setting.updated_value_generic=§fVerdien av §b%s§f ble oppdatert.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=Ble deaktivert pga. %s
+feature.auto_disable.notification.enabled_due=Ble aktivert fordi %s var deaktivert
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Ikke tilgjengelig på %s
+feature.disabler.notification.fly.text=Du kan nå fly!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Spilletid
+feature.hypixelstats.kills=Kills
+feature.hypixelstats.wins=Wins
+feature.hypixelstats.games_played=Spill spilt
+feature.hypixelstats.staff_bans_since_login=Antall bans
+feature.hypixelstats.notification.not_available.text=Ikke tilgjengelig %s
+feature.hypixelstats.notification.not_available.singleplayer=i Enspiller
+feature.hypixelstats.notification.not_available.server=på %s
+feature.hypixelstats.notification.ban_status.title=Moderatorsjekker
+feature.hypixelstats.notification.ban_status.banned=Moderatorer har utestengt %d spillere i de siste %s
+feature.hypixelstats.notification.ban_status.unbanned=Moderatorer har unbanned %d spillere i de siste %s
+feature.hypixelstats.notification.ban_status.not_changed=Moderatorer har ikke utestengt noen i de siste %s
+feature.hypixelstats.error.initial_ban_check_failed=Kan ikke fullføre ban-check. Prøver på nytt senere
+feature.hypixelstats.error.ban_check_failed=Ban-check mislyktes: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=Ble deaktivert på grunn av spillslutt
+feature.killaura.disable_rules.notification.world_change=Ble deaktivert på grunn av endring i verden
+feature.killaura.disable_rules.notification.death=Ble deaktivert på grunn av dødsfall
+
+# Game - Notifications
+notification.type.info=Informasjon
+notification.type.warning=Advarsel
+notification.type.error=Feil
+notification.type.success=Suksess
+
+notification.text.feature_enabled=Modul '%s' ble aktivert
+notification.text.feature_disabled=Modul '%s' ble deaktivert
+
+# Game - LagDetector
+feature.lagdetector.msg=Forbindelsesproblem!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Sender deg til neste spill om %sms
+feature.autohypixel.auto_phase.notification.phased=Forsøkte å fase ut av buret
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Ingen forbindelse med Discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Modus "HypixelBow" krever en bue i inventaret
+
+# Game - Speed
+feature.speed.notification.lag_back=Ble deaktivert pga. lag-back
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=Aktiverte Scaffold for å forhindre død ved void
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=Ble deaktivert på grunn av spillslutt
+feature.autoarmor.disable_rules.notification.world_change=Ble deaktivert på grunn av verdensendring
+feature.autoarmor.disable_rules.notification.death=Ble deaktivert på grunn av dødsfall
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Ble deaktivert på grunn av spillslutt
+feature.autoarmor.disable_rules.notification.world_change=Ble deaktivert på grunn av verdensendring
+feature.inventorymanager.disable_rules.notification.death=Ble deaktivert på grunn av dødsfall
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Ble deaktivert på grunn av spillslutt
+feature.autoarmor.disable_rules.notification.world_change=Ble deaktivert på grunn av verdensendring
+feature.scaffold.disable_rules.notification.death=Ble deaktivert på grunn av dødsfall
