@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Singleplayer
+main_menu.gui.multiplayer=Multiplayer
+main_menu.gui.alt_manager=Account Manager
+main_menu.gui.options=Instellingen
+main_menu.gui.quit_game=Afsluiten
+main_menu.gui.documentation=Documentatie
+main_menu.gui.switch_image=Verander Foto
+main_menu.gui.release_build=Release Build %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Account Beheer
+account_manager.gui.log_in.button=Inloggen
+account_manager.gui.add_alt.button=Voeg een Alt toe
+account_manager.gui.remove_alt.button=Verwijder Alt
+account_manager.gui.direct_login.button=Directe Login
+account_manager.gui.generate.button=Genereer
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening Instellingen
+account_manager.gui.thealtening.token=TheAltening Token
+account_manager.gui.thealtening.copy_token=Kopieer gratis Account Token
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Voeg een Account toe
+account_manager.gui.add_account.add=Account toevoegen
+account_manager.gui.account_action.email=Email / naam
+account_manager.gui.account_action.password=Wachtwoord
+account_manager.gui.account_action.import=Uit klembord plakken
+account_manager.gui.account_action.random_cracked=Willekeurige cracked
+account_manager.gui.account_action.microsoft_account=Microsoft account toevoegen
+
+account_manager.notification.login.empty_account.body=Een van de velden is leeg.
+account_manager.notification.login.import_error.body=Import formaat onjuist!
+
+account_manager.gui.account_action.microsoft_account.title=Account wordt toegevoegd...
+account_manager.gui.account_action.microsoft_account.body=Er is een tabblad voor jouw geopend om te gaan inloggen.
+account_manager.gui.account_action.microsoft_account.cancel=Annuleer
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Direct Inloggen
+account_manager.gui.direct_login.login=Inloggen
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Onbekend>
+account_manager.gui.entry.cracked=Cracked account
+account_manager.gui.entry.microsoft=Microsoft account
+account_manager.gui.entry.top_stats=Rang: %s  Level: %d
+account_manager.gui.entry.loading_profile=Profiel aan het laden...
+account_manager.gui.entry.banned_on=Verbanned op %s
+account_manager.gui.entry.permanently_banned=Permanent verbannen
+account_manager.gui.entry.unbanned_in=Ban opgeheven in %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Account Manager
+account_manager.login_handling.logging_in.notification.body=Account inloggen...
+account_manager.login_handling.invalid_account.notification.body=Dit account is ongeldig, je kan hier niet op inloggen.
+account_manager.login_handling.invalid_credentials.notification.body=Ongeldige inloggegevens!
+account_manager.login_handling.logged_in.notification.body=Ingelogd! Naam: %s
+account_manager.marked_as_banned.notification.body=Account gemarkeerd als verbannen
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Account Manager
+account_manager.generating_account.notification.body=Account aan het genereren...
+account_manager.thealtening.invalid_token.notification.title=Account Manager
+account_manager.thealtening.invalid_token.notification.body=Token is niet gespecificeerd! Voer een geldige token in.
+account_manager.thealtening.unable_to_generate.notification.title=Fout melding
+account_manager.thealtening.unable_to_generate.notification.body=Kan geen account generaten. Ongeldige token?
+account_manager.thealtening.generated.notification.title=Voltooid
+account_manager.thealtening.generated.notification.body=Account gegenereerd %s
+
+# Game - Greeting Message
+greeting.line_1=Welkom bij %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=Om een module op een toets te zetten, type ".bind <module> <toets>".
+greeting.line_4=  Je kan ook modules in de Clickgui veranderen
+greeting.line_5=  doormiddel van de middelste muis knop te klikken.
+greeting.line_6=Om hulp te krijgen, type ".help".
+greeting.line_7=Om configuraties van de Discord Server te downloaden, kopieer
+greeting.line_8=de configuratie link en type ".cfg download <link>".
+
+# Game - Command errors
+command.wrong_command=§cCommando niet gevonden.
+command.similar_commands=§Vergelijkbare commando's:
+command.wrong_arguments=§cFoute commando argumenten!
+command.error=§cKan commando niet uitvoeren. Verkeerde syntax, check de syntax en probeer nog een keer.
+
+# Game - Toggle
+command.toggle.on=Functie §3'%s'§7 aangezet §aAAN§7.
+command.toggle.off=Functie §3'%s'§7 was aangezet §cUIT§7.
+command.toggle.not_found=§cFunctie '%s' niet gevonden.
+
+# Game - Binds
+command.bind.unbound=Module §3'%s' §7is unbound.
+command.bind.bound=Module §3'%s' §was gebonden aan §3'%s'§7, activatie§7 method: §3%s§7.
+command.bind.wrong_key=§cVerkeerde key code!
+command.bind.wrong_feature_name=§cVerkeerde module naam!
+command.bind.bindlist_empty=Bind lijst is leeg.
+command.bind.cleared=Bind lijst is gewist.
+command.bind.invalid_press_type=§cOngeldige Keybind: %s.
+command.bind.press_type.press=Toetsaanslag
+command.bind.press_type.hold=Vasthouden
+
+# Game - Configs
+command.config.listempty=Config lijst is leeg.
+command.config.cfglist=Configs(§3%s§7): §3%s
+command.config.cfg_not_found=Config §3'%s'§7 niet gevonden!
+command.config.cfg_already_exists=Config §3'%s'§7 bestaat al.
+command.config.cfg_already_exists2=Gebruik het commando §3'.cfg save <name> force'§7 om het te herschrijven.
+command.config.cfg_saved=Config §3'%s'§7 is opgeslagen.
+command.config.cfg_loaded=Config §3'%s'§7 is geladen.
+command.config.reset=Config is gereset!
+
+# Game - Relations
+command.relations.added=§f %s toegevoegd als §a%s§f!
+command.relations.invalid_type=§cOngeldig relatietype: §7%s. §cOndersteunde typen: §7friend, target
+command.relations.io_error=§cKon Relaties niet opslaan vanwege een foutmelding.
+command.relations.list=§fRelaties §7(%d):
+command.relations.list_filter=§fRelaties - §a%s §7(%d):
+command.relations.list_empty=Er zijn geen relaties.
+command.relations.list_empty_filter=Er zijn geen relaties van het type §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§cVerwijderd §7%s §cvan relatie list.
+command.relations.clear=§fAlle relaties verwijderd!
+command.relations.clear_filter=§fAlle relaties van het type verwijderd %s!
+command.relations.help_p1=§f .t/.f are commands which specify the relation type -
+command.relations.help_p2=§f je hoeft niet te specificeren [type] als je ze gebruikt!
+
+# Game - Plugins
+command.plugins.req_sent=§7Proberen om plugins te vinden...
+command.plugins.not_found=§cGeen plugins gevonden   .
+command.plugins.no_response=§cGeen plugins gevonden §7(server heeft niet geantwoord)
+command.plugins.list=§bPlugins: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=Bericht lijst:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Berichten gewist.
+command.gen_messages.added=Berichten toegevoegd.
+command.gen_messages.removed=Bericht verwijderd.
+command.gen_messages.remove_out_of_bounds=Incorrecte index. Type %s list om bericht indices te bekijken.
+
+command.gen_messages.usage_1=.%s list - lijst van berichten
+command.gen_messages.usage_2=.%s clear - verwijder berichten
+command.gen_messages.usage_3=.%s add <message> - voeg een bericht toe
+command.gen_messages.usage_4=.%s remove <index> - verwijder een bericht
+command.gen_messages.usage_5=.%s browse - open bericht locatie
+
+command.gen_messages.usage_ph=Placeholders in messages:
+command.gen_messages.usage_ph_1= {c_version} - client versie
+command.gen_messages.usage_ph_2= {c_build} - client build datum
+command.gen_messages.usage_ph_3= {u_username} - jouw naam
+command.gen_messages.usage_ph_4= {u_uid} - jouw uid
+
+command.killsults.ph_1= {player} - Spelers naam
+
+command.setting.help_append_silent=§ftoevoegen §b-s§f aan het einde van de opdracht om de uitvoer te verwijderen.
+command.setting.invalid_signature=§cOngeldige instellingssleutel.
+command.setting.parse_failed=§cKan de instellingswaarde niet ontleden: verwachten a §f%s§c, gekregen: §f%s§c.
+command.setting.type_number=nummer
+command.setting.type_decimal=decimaal nummer
+command.setting.invalid_value=§cKan de instellingswaarde niet instellen: %s.
+command.setting.mcb.updated_value=§fStaat van §b%s§f was ingesteld op §b%s§f.
+command.setting.color.invalid_rgb=§cFoute RGB kleur waarde: verwachtte een argument zoals 255,255,255.
+command.setting.invalid_type=§cOngeldig instellingtype: %s.
+command.setting.updated_value=§fWaarde van §b%s§f was ingesteld op §b%s§f.
+command.setting.updated_value_generic=§fWaarde van §b%s§f is geupdated.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=Is uitgeschakeld door %s
+feature.auto_disable.notification.enabled_due=Is aangezet omdat %s is uitgeschakeld
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Niet beschikbaar op %s
+feature.disabler.notification.fly.text=Je kan nu vliegen!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Speeltijd
+feature.hypixelstats.kills=Kills
+feature.hypixelstats.wins=Wins
+feature.hypixelstats.games_played=Spellen gespeeld
+feature.hypixelstats.staff_bans_since_login=Totaat aantal bans
+feature.hypixelstats.notification.not_available.text=Niet beschikbaar %s
+feature.hypixelstats.notification.not_available.singleplayer=in Singleplayer
+feature.hypixelstats.notification.not_available.server=op %s
+feature.hypixelstats.notification.ban_status.title=Staff Controles
+feature.hypixelstats.notification.ban_status.banned=Staff heeft %d spelers verbannen sinds de laatste %s
+feature.hypixelstats.notification.ban_status.unbanned=Staff heeft %d spelers verheven sinds the laaste %s
+feature.hypixelstats.notification.ban_status.not_changed=Staff heeft niemand verbannen sinds de laatste %s
+feature.hypixelstats.error.initial_ban_check_failed=Kan geen ban check uitvoeren. Probeer het later opnieuw.
+feature.hypixelstats.error.ban_check_failed=Ban check verzoek is mislukt: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=Uitgezet door dat het spel is geëindigd 
+feature.killaura.disable_rules.notification.world_change=Uitgezet door wereld verandering
+feature.killaura.disable_rules.notification.death=Uitgezet wegens dood
+
+# Game - Notifications
+notification.type.info=Informatie
+notification.type.warning=Waarschuwing
+notification.type.error=Foutmelding
+notification.type.success=Success
+
+notification.text.feature_enabled=Module '%s' is aangezet
+notification.text.feature_disabled=Module '%s' is uitgezet
+
+# Game - LagDetector
+feature.lagdetector.msg=Verbindingsprobleem!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Je wordt naar de volgende spel gestuurd in %sms
+feature.autohypixel.auto_phase.notification.phased=Poging tot fase uit de cage
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Kon geen verbinding maken met Discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Voor de modus "HypixelBow", heb je een boog nodig in je inventaris
+
+# Game - Speed
+feature.speed.notification.lag_back=Uitgezet door een lag-back
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=Scaffold is aangezet om dood te verkomen door de void.
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=Uitgezet omdat het spel is beëindigd
+feature.autoarmor.disable_rules.notification.world_change=Uitgezet door wereld verandering
+feature.autoarmor.disable_rules.notification.death=Uitgezet wegens dood
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Uitgezet omdat het spel is beëindigd
+feature.inventorymanager.disable_rules.notification.world_change=Uitgezet door wereld verandering
+feature.inventorymanager.disable_rules.notification.death=Uitgezet wegens dood
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Uitgezet omdat het spel is beëindigd
+feature.scaffold.disable_rules.notification.world_change=Uitgezet door wereld verandering
+feature.scaffold.disable_rules.notification.death=Uitgezet wegens dood
