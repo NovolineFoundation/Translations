@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Singleplayer
+main_menu.gui.multiplayer=Multiplayer
+main_menu.gui.alt_manager=Cont Manager
+main_menu.gui.options=Opțiuni
+main_menu.gui.quit_game=Părăsește jocul
+main_menu.gui.documentation=Documentație
+main_menu.gui.switch_image=Schimbă Imaginii
+main_menu.gui.release_build=Lansatul versiune Build %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Cont Manager
+account_manager.gui.log_in.button=Autentificare
+account_manager.gui.add_alt.button=Adaugă Cont
+account_manager.gui.remove_alt.button=Elimina Cont
+account_manager.gui.direct_login.button=Logeaza Direct
+account_manager.gui.generate.button=Generatie TheAlteing
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening Set
+account_manager.gui.thealtening.token=TheAltening token
+account_manager.gui.thealtening.copy_token=Copiază gratis Token de TheAltening
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Adaugă Account
+account_manager.gui.add_account.add=Adaugă Account
+account_manager.gui.account_action.email=E-Mail / nume de utilizator
+account_manager.gui.account_action.password=Parolă
+account_manager.gui.account_action.import=Importează din Clipboard
+account_manager.gui.account_action.random_cracked=Aleatoriu Cracked Account
+account_manager.gui.account_action.microsoft_account=Adaugă Microsoft account
+
+account_manager.notification.login.empty_account.body=Nu se poate adăuga un cont gol!
+account_manager.notification.login.import_error.body=Nu se poate utiliza formatu de Import asta!
+
+account_manager.gui.account_action.microsoft_account.title=Se adaugă cont...
+account_manager.gui.account_action.microsoft_account.body=S-a deschis o fereastră pentru a vă conecta la Microsoft Account!
+account_manager.gui.account_action.microsoft_account.cancel=Cancelare
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Autentificare Direct
+account_manager.gui.direct_login.login=Autentificare
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Necunoscut>
+account_manager.gui.entry.cracked=Cont Cracked
+account_manager.gui.entry.microsoft=Microsoft Cont
+account_manager.gui.entry.top_stats=Rank: %s  Nivel: %d
+account_manager.gui.entry.loading_profile=Se încarcă profilul...
+account_manager.gui.entry.banned_on=Interzis pe %s
+account_manager.gui.entry.permanently_banned=Interzis Permanent
+account_manager.gui.entry.unbanned_in=Neinterzis in %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Cont Manager
+account_manager.login_handling.logging_in.notification.body=S-e Log-eaza in cont...
+account_manager.login_handling.invalid_account.notification.body=Acest cont este invalid, nu vă puteți conecta la el!
+account_manager.login_handling.invalid_credentials.notification.body=Credentiale Invalid!
+account_manager.login_handling.logged_in.notification.body=Autentificat! Nume de Utilizator: %s
+account_manager.marked_as_banned.notification.body=Markat Cont ca Interzis
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Cont Manager
+account_manager.generating_account.notification.body=Generaza Cont...
+account_manager.thealtening.invalid_token.notification.title=Cont Manager
+account_manager.thealtening.invalid_token.notification.body=Tokenul nu este specificat! Vă rugăm să introduceți un token valid 
+account_manager.thealtening.unable_to_generate.notification.title=Error
+account_manager.thealtening.unable_to_generate.notification.body=Nu se poate genera Cont. Token Invalid?
+account_manager.thealtening.generated.notification.title=Success
+account_manager.thealtening.generated.notification.body=Generat cont %s
+
+# Game - Greeting Message
+greeting.line_1=Bun venit! %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=Pentru a lega modulele, scrie ".bind <module> <key>" in conversație
+greeting.line_4=  In plus, poti lega modulele in ClickGUI.
+greeting.line_5=  prin apăsarea butonului din mijloc al mouse-ului.
+greeting.line_6=Pentru Ajutor pe commande, scrie ".help" in conversație 
+greeting.line_7=S-a downloadezi configs de-la Discord server, copiază
+greeting.line_8=config link de-la Discord Server și scrie ".cfg download <link>" in conversație
+
+# Game - Command errors
+command.wrong_command=§cCommand-ul n-a fost găsit.
+command.similar_commands=§cSimilar commands:
+command.wrong_arguments=§cArgumente greșit!
+command.error=§cNu se poate executa comanda. Verificați sintaxa și încercați din nou.
+
+# Game - Toggle
+command.toggle.on=Feature §3'%s'§7 a fost comutat §aON§7.
+command.toggle.off=Feature §3'%s'§7 a fost comutat §cOFF§7.
+command.toggle.not_found=§ccaracteristică '%s' na fost găsit.
+
+# Game - Binds
+command.bind.unbound=Feature §3'%s' §7was delegat.
+command.bind.bound=Feature §3'%s' §7a fost legat la §3'%s'§7, activitie§7 metodă: §3%s§7.
+command.bind.wrong_key=§cCod cheie greșit!
+command.bind.wrong_feature_name=§cNume greșit al caracteristicii!
+command.bind.bindlist_empty=listă de Legaturi sant goale.
+command.bind.cleared=Legaturi a fost șterse.
+command.bind.invalid_press_type=§cTip de presă nevalid: %s.
+command.bind.press_type.press=presa
+command.bind.press_type.hold=tine
+
+# Game - Configs
+command.config.listempty=Lista de Config este goale.
+command.config.cfglist=Configs(§3%s§7): §3%s
+command.config.cfg_not_found=Config §3'%s'§7 na fost găsit
+command.config.cfg_already_exists=Config §3'%s'§7 deja există.
+command.config.cfg_already_exists2=Foloseste §3'.cfg save <nume>' forca§7 sa rescrie Config. (a catto afost aica)
+command.config.cfg_saved=Config §3'%s'§7 a fost salvat.
+command.config.cfg_loaded=Config §3'%s'§7 a fost încărcat.
+command.config.reset=Config a fost resetată.
+
+# Game - Relations
+command.relations.added=§fAdaugăt %s ca §a%s§f!
+command.relations.invalid_type=§cInvalid Relatie typ: §7%s. §cSupportate types: §7prieten, target
+command.relations.io_error=§cRelațiile nu au putut fi salvate din cauza unei erori.
+command.relations.list=§fRelati §7(%d):
+command.relations.list_filter=§fRelati - §a%s §7(%d):
+command.relations.list_empty=There are no relati.
+command.relations.list_empty_filter=Nu există relații de tip §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§cEliminat §7%s §cdin lista de relații.
+command.relations.clear=§fS-au eliminat toate relațiile! 
+command.relations.clear_filter=§fS-au eliminat toate Relațiile de tip  %s!
+command.relations.help_p1=§f .t/.f sunt comenzi care specifică tipul relației -
+command.relations.help_p2=§f nu trebuie să specificați [tip] dacă le folosiți!
+
+# Game - Plugins
+command.plugins.req_sent=§7Se încearcă găsirea de pluginuri...
+command.plugins.not_found=§cNu s-au găsit pluginuri.
+command.plugins.no_response=§cNu s-au găsit pluginuri §7 (serverul nu a răspuns)
+command.plugins.list=§bPluginuri: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=Lista de mesaje:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Mesajele au fost șterse.
+command.gen_messages.added=Mesaj adăugat.
+command.gen_messages.removed=Mesaj eliminat.
+command.gen_messages.remove_out_of_bounds=Index incorect. Tastați lista %s pentru a vizualiza indici de mesaje 
+
+command.gen_messages.usage_1=.%s list - listează mesajele 
+command.gen_messages.usage_2=.%s clear - sterge mesaje
+command.gen_messages.usage_3=.%s add <message> - adauga un mesaj
+command.gen_messages.usage_4=.%s remove <index> - elimina un mesaj
+command.gen_messages.usage_5=.%s browse - deschideți locația fișierului mesajului
+
+command.gen_messages.usage_ph=Placeholders in messages:
+command.gen_messages.usage_ph_1= {c_version} - versiunea client
+command.gen_messages.usage_ph_2= {c_build} - lansatie client build
+command.gen_messages.usage_ph_3= {u_username} - numele tau de utilizator
+command.gen_messages.usage_ph_4= {u_uid} - uid-ul tău
+
+command.killsults.ph_1= {player} - numele jucătorului
+
+command.setting.help_append_silent=§fAdăugați §b-s§f la sfârșitul comenzii pentru a elimina ieșirea.
+command.setting.invalid_signature=§cCheie de setare nevalidă.
+command.setting.parse_failed=§cNu s-a putut analiza valoarea setării: se aștepta un §f%s§c, am primit §f%s§c.
+command.setting.type_number=număr
+command.setting.type_decimal=numar decimal
+command.setting.invalid_value=§cNu s-a putut seta valoarea setarii: %s.
+command.setting.mcb.updated_value=§fStarea lui §b%s§f a fost setată la §b%s§f.
+command.setting.color.invalid_rgb=§cValoarea culorii RGB nevalidă: argument-ul trebuie sa fie precum 255,255,255.
+command.setting.invalid_type=§cTip de setare nevalid: %s.
+command.setting.updated_value=§fValoarea de §b%s§f a fost setată la §b%s§f.
+command.setting.updated_value_generic=§fValoarea de §b%s§f a fost actualizată.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=Fost dezactivată din cauza %s
+feature.auto_disable.notification.enabled_due=A fost activat din-cauza %s a fost dezactivat
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Nu este disponibil pe %s
+feature.disabler.notification.fly.text=Poți zbura acum!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Timp de joaca
+feature.hypixelstats.kills=Ucide
+feature.hypixelstats.wins=Câștigăti
+feature.hypixelstats.games_played=Jocuri jucate
+feature.hypixelstats.staff_bans_since_login=Interzicii totale
+feature.hypixelstats.notification.not_available.text=Nu este disponibil %s
+feature.hypixelstats.notification.not_available.singleplayer=în Singleplayer
+feature.hypixelstats.notification.not_available.server=pe %s
+feature.hypixelstats.notification.ban_status.title=Verificări ale Staff
+feature.hypixelstats.notification.ban_status.banned=Staff a interzis %d jucători din ultimii %s
+feature.hypixelstats.notification.ban_status.unbanned=Staff has unbanned %d players since the last %s
+feature.hypixelstats.notification.ban_status.not_changed=Staff nu a interzis pe nimeni din ultimele %s
+feature.hypixelstats.error.initial_ban_check_failed=Nu se poate finaliza verificarea inițială a interzicerii. Reîncercați mai târziu
+feature.hypixelstats.error.ban_check_failed=Solicitarea de interzicere a verificării a eșuat: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=A fost dezactivată din cauza sfârșitului jocului
+feature.killaura.disable_rules.notification.world_change=A fost dezactivat din cauza schimbării lumii
+feature.killaura.disable_rules.notification.death=A fost invalidă din cauza morții
+
+# Game - Notifications
+notification.type.info=Informație
+notification.type.warning=Avertizare
+notification.type.error=Eroare
+notification.type.success=Success
+
+notification.text.feature_enabled=Caracteristica „%s” a fost activată
+notification.text.feature_disabled=Caracteristica „%s” a fost dezactivată
+
+# Game - LagDetector
+feature.lagdetector.msg=Problema de conectare!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Vă trimitem la următorul joc în %sms
+feature.autohypixel.auto_phase.notification.phased=A încercat să iasă phase din cușcă
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Nicio legătură cu Discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Modul „HypixelBow” trebuie un Bow în inventar
+
+# Game - Speed
+feature.speed.notification.lag_back=A fost dezactivată din cauza lagback
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=S-a activat Scaffold pentru a preveni moartea prin gol
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=A fost dezactivată din cauza sfârșitului jocului
+feature.autoarmor.disable_rules.notification.world_change=A fost dezactivat din cauza schimbării lumii
+feature.autoarmor.disable_rules.notification.death=A fost invalidă din cauza morții
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=A fost dezactivată din cauza sfârșitului jocului
+feature.inventorymanager.disable_rules.notification.world_change=A fost dezactivat din cauza schimbării lumii
+feature.inventorymanager.disable_rules.notification.death=A fost invalidă din cauza morții
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=A fost dezactivată din cauza sfârșitului jocului
+feature.scaffold.disable_rules.notification.world_change=A fost dezactivat din cauza schimbării lumii
+feature.scaffold.disable_rules.notification.death=A fost dezactivat din cauza morții
