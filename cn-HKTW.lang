@@ -1,0 +1,241 @@
+# Main Menu
+main_menu.gui.singleplayer=單人遊戲
+main_menu.gui.multiplayer=多人遊戲
+main_menu.gui.alt_manager=管理帳號
+main_menu.gui.options=選項
+main_menu.gui.quit_game=離開遊戲
+main_menu.gui.documentation=插件教學
+main_menu.gui.switch_image=更換背景
+main_menu.gui.release_build=發布版本 %s
+
+# Account Manager - Main Page
+account_manager.gui.header=管理帳號
+account_manager.gui.log_in.button=登入
+account_manager.gui.add_alt.button=新增帳號
+account_manager.gui.remove_alt.button=移除帳號
+account_manager.gui.direct_login.button=直接登入
+account_manager.gui.generate.button=生成帳號
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening 設定
+account_manager.gui.thealtening.token=TheAltening 代碼
+account_manager.gui.thealtening.copy_token=複製免費帳號代碼
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=新增帳號
+account_manager.gui.add_account.add=新增帳號
+account_manager.gui.account_action.email=信箱 / 名子
+account_manager.gui.account_action.password=密碼
+account_manager.gui.account_action.import=從剪貼簿貼上
+account_manager.gui.account_action.random_cracked=隨機破解版帳號
+account_manager.gui.account_action.microsoft_account=新增微軟帳號
+
+account_manager.notification.login.empty_account.body=無法添加無效帳戶
+account_manager.notification.login.import_error.body=錯誤的導入格式!
+
+account_manager.gui.account_action.microsoft_account.title=正在添加帳號...
+account_manager.gui.account_action.microsoft_account.body=已打開一個視窗給您登錄
+account_manager.gui.account_action.microsoft_account.cancel=取消
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=直接登錄
+account_manager.gui.direct_login.login=登入
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<未知>
+account_manager.gui.entry.cracked=破解版帳號
+account_manager.gui.entry.microsoft=微軟帳號
+account_manager.gui.entry.top_stats=會員等級: %s  等級: %d
+account_manager.gui.entry.loading_profile=正在加載個人資料...
+account_manager.gui.entry.banned_on=已被封禁 on %s
+account_manager.gui.entry.permanently_banned=永久封禁
+account_manager.gui.entry.unbanned_in=解除封禁時間 %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=管理帳號
+account_manager.login_handling.logging_in.notification.body=正在登入帳號...
+account_manager.login_handling.invalid_account.notification.body=此帳號無效，您無法登錄!
+account_manager.login_handling.invalid_credentials.notification.body=無效的證件!
+account_manager.login_handling.logged_in.notification.body=已登入! 使用者名稱: %s
+account_manager.marked_as_banned.notification.body=已將帳號標記為已禁止
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=管理帳號
+account_manager.generating_account.notification.body=正在生成帳號...
+account_manager.thealtening.invalid_token.notification.title=管理帳號
+account_manager.thealtening.invalid_token.notification.body=代碼未指定! 請輸入有效的代碼
+account_manager.thealtening.unable_to_generate.notification.title=錯誤
+account_manager.thealtening.unable_to_generate.notification.body=無法生成帳戶 代碼無效?
+account_manager.thealtening.generated.notification.title=成功
+account_manager.thealtening.generated.notification.body=已生成帳號 %s
+
+# Game - Greeting Message
+greeting.line_1=歡迎來到 %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=設置快捷鍵, 請輸入 ".bind <模式> <按鍵>" 在聊天室
+greeting.line_4=  此外, 您可以在 ClickGUI 中綁定按鍵
+greeting.line_5=  按下鼠標中鍵.
+greeting.line_6=有關指令的幫助，請在聊天室中輸入“.help”
+greeting.line_7=如果要下載配置請至 Discord 服務器下載配置
+greeting.line_8=複製配置鏈接並在聊天室中鍵入 ".cfg download <鏈接>"
+
+# Game - Command errors
+command.wrong_command=§c沒有找到指令.
+command.similar_commands=§c類似的指令:
+command.wrong_arguments=§c錯誤的指令參數!
+command.error=§c無法執行指令. 檢查指令是否輸入正確並重試.
+
+# Game - Toggle
+command.toggle.on=Feature §3'%s'§7 已啟用 §aON§7.
+command.toggle.off=Feature §3'%s'§7 已啟用 §cOFF§7.
+command.toggle.not_found=§cFeature '%s' 沒有找到.
+
+# Game - Binds
+command.bind.unbound=Feature §3'%s' §7已解除快捷鍵.
+command.bind.bound=Feature §3'%s' §7快捷鍵已設定成 §3'%s'§7, activation§7 method: §3%s§7.
+command.bind.wrong_key=§c錯誤的按鍵!
+command.bind.wrong_feature_name=§c錯誤的功能名稱!
+command.bind.bindlist_empty=快捷鍵列表為空的.
+command.bind.cleared=快捷鍵列表已清除.
+command.bind.invalid_press_type=§c無效的按鍵: %s.
+command.bind.press_type.press=按下
+command.bind.press_type.hold=保持
+
+# Game - Configs
+command.config.listempty=配置列表為空的.
+command.config.cfglist=配置(§3%s§7): §3%s
+command.config.cfg_not_found=配置 §3'%s'§7 沒有找到!
+command.config.cfg_already_exists=配置 §3'%s'§7 已經存在.
+command.config.cfg_already_exists2=使用 §3'.cfg save <name> force'§7 來重新儲存.
+command.config.cfg_saved=配置 §3'%s'§7 已儲存.
+command.config.cfg_loaded=配置 §3'%s'§7 已載入.
+command.config.reset=配置已重製.
+
+# Game - Relations
+command.relations.added=§f添加 %s §a%s§f!
+command.relations.invalid_type=§c格式類型無效: §7%s. §c支持的格式: §7friend, target
+command.relations.io_error=§c由於出現錯誤，無法保存格式.
+command.relations.list=§f關係 §7(%d):
+command.relations.list_filter=§f關係 - §a%s §7(%d):
+command.relations.list_empty=這沒有關係.
+command.relations.list_empty_filter=沒有類型關係 §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§c已移除 §7%s §c在格式列表中.
+command.relations.clear=§f已刪除所有格式!
+command.relations.clear_filter=§f刪除了所有類型的格式 %s!
+command.relations.help_p1=§f .t/.f 都是指定格式類型的命令 -
+command.relations.help_p2=§f 如果使用它們，則無需指定 [type]!
+
+# Game - Plugins
+command.plugins.req_sent=§7試圖尋找插件...
+command.plugins.not_found=§c沒有找到任何插件.
+command.plugins.no_response=§c有找到任何插件 §7(服務器沒有回應)
+command.plugins.list=§b插件: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=訊息表:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=訊息已清除.
+command.gen_messages.added=訊息已加入.
+command.gen_messages.removed=訊息已移除.
+command.gen_messages.remove_out_of_bounds=無效索引. 輸入 %s list 以查看訊息索引.
+
+command.gen_messages.usage_1=.%s list - 訊息列表
+command.gen_messages.usage_2=.%s clear - 清除訊息
+command.gen_messages.usage_3=.%s add <message> - 增加一個訊息
+command.gen_messages.usage_4=.%s remove <index> - 移除一個訊息
+command.gen_messages.usage_5=.%s browse - 打開訊息文件位置
+
+command.gen_messages.usage_ph=訊息中的佔位符:
+command.gen_messages.usage_ph_1= {c_version} - 客戶端 版本
+command.gen_messages.usage_ph_2= {c_build} - 客戶端構建日期
+command.gen_messages.usage_ph_3= {u_username} - 你的使用者名稱
+command.gen_messages.usage_ph_4= {u_uid} - 你的 uid
+
+command.killsults.ph_1= {player} - 玩家名稱
+
+command.setting.help_append_silent=§f添加 §b-s§f 在命令末尾刪除輸出.
+command.setting.invalid_signature=§c設置密鑰無效.
+command.setting.parse_failed=§c無法解析設置值：預期 §f%s§c, got §f%s§c.
+command.setting.type_number=數字
+command.setting.type_decimal=十進制
+command.setting.invalid_value=§c無法設置設置值: %s.
+command.setting.mcb.updated_value=§f狀態 §b%s§f 已設置為 §b%s§f.
+command.setting.color.invalid_rgb=§c錯誤的 RGB 設置值: 它需要一個像 255,255,255.
+command.setting.invalid_type=§c設置類型錯誤: %s.
+command.setting.updated_value=§f當前值 §b%s§f 已設置為 §b%s§f.
+command.setting.updated_value_generic=§f當前值 §b%s§f 已更新.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=已被關閉,因為 %s
+feature.auto_disable.notification.enabled_due=已開啟 因為 %s 已關閉
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=不可用於 %s
+feature.disabler.notification.fly.text=你現在可以飛高高!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=遊玩時數
+feature.hypixelstats.kills=擊殺
+feature.hypixelstats.wins=勝場
+feature.hypixelstats.games_played=遊玩場次
+feature.hypixelstats.staff_bans_since_login=總封禁數
+feature.hypixelstats.notification.not_available.text=無法使用 %s
+feature.hypixelstats.notification.not_available.singleplayer=在單人遊戲中
+feature.hypixelstats.notification.not_available.server=on %s
+feature.hypixelstats.notification.ban_status.title=客服檢查
+feature.hypixelstats.notification.ban_status.banned=客服已封禁 %d 玩家在 %s 前
+feature.hypixelstats.notification.ban_status.unbanned=客服已解除封禁 %d 玩家在 %s 前
+feature.hypixelstats.notification.ban_status.not_changed=客服沒有封禁任何人在 %s 前
+feature.hypixelstats.error.initial_ban_check_failed=無法完成封禁檢查. 稍後再試
+feature.hypixelstats.error.ban_check_failed=檢查封禁請求失敗: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=由於遊戲結束而關閉
+feature.killaura.disable_rules.notification.world_change=由於世界改變而關閉
+feature.killaura.disable_rules.notification.death=因為死亡而關閉
+
+# Game - Notifications
+notification.type.info=信息
+notification.type.warning=警告
+notification.type.error=錯誤
+notification.type.success=成功
+
+notification.text.feature_enabled=Feature '%s' 已啟用
+notification.text.feature_disabled=Feature '%s' 已關閉
+
+# Game - LagDetector
+feature.lagdetector.msg=連接問題!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=正在把你傳送到下一場遊戲 %sms
+feature.autohypixel.auto_phase.notification.phased=試圖穿過籠子
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=沒有連接 Discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" 該功能需要在您的物品欄中使用弓
+
+# Game - Speed
+feature.speed.notification.lag_back=已關閉 因為你回彈了
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=啟動 Scaffold 防止掉入空虛而死
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=由於遊戲結束而關閉
+feature.autoarmor.disable_rules.notification.world_change=由於世界改變而關閉
+feature.autoarmor.disable_rules.notification.death=因為死亡而關閉
+
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Was 由於遊戲結束而關閉
+feature.inventorymanager.disable_rules.notification.world_change=由於世界改變而關閉
+feature.inventorymanager.disable_rules.notification.death=因為死亡而關閉
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Was 由於遊戲結束而關閉
+feature.scaffold.disable_rules.notification.world_change=由於世界改變而關閉
+feature.scaffold.disable_rules.notification.death=因為死亡而關閉
