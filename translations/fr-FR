@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Solo
+main_menu.gui.multiplayer=Multijoueur
+main_menu.gui.alt_manager=Gestionnaire de compte
+main_menu.gui.options=Options
+main_menu.gui.quit_game=Quitter
+main_menu.gui.documentation=Documentation
+main_menu.gui.switch_image=Changer d'image
+main_menu.gui.release_build=Version du Build %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Gestionnaire de compte
+account_manager.gui.log_in.button=Se Connecter
+account_manager.gui.add_alt.button=Ajouter le Compte
+account_manager.gui.remove_alt.button=Retirer le Compte
+account_manager.gui.direct_login.button=Connexion Directe
+account_manager.gui.generate.button=Générer
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=Paramètres TheAltening
+account_manager.gui.thealtening.token=Token TheAltening
+account_manager.gui.thealtening.copy_token=Copiez le token gratuit
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Ajouter un Compte
+account_manager.gui.add_account.add=Ajouter le Compte
+account_manager.gui.account_action.email=Email / Nom d'utilisateur
+account_manager.gui.account_action.password=Mot de Passe
+account_manager.gui.account_action.import=Importer via le presse-papier
+account_manager.gui.account_action.random_cracked=Compte crack aléatoire
+account_manager.gui.account_action.microsoft_account=Ajouter un compte Microsoft
+
+account_manager.notification.login.empty_account.body=Impossible d'ajouter un compte vide!
+account_manager.notification.login.import_error.body=Mauvais format d'importation!
+
+account_manager.gui.account_action.microsoft_account.title=Ajout du compte...
+account_manager.gui.account_action.microsoft_account.body=Une fenêtre s'est ouverte pour vous connecter
+account_manager.gui.account_action.microsoft_account.cancel=Annuler
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Connexion Directe
+account_manager.gui.direct_login.login=Se Connecter
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Inconnu>
+account_manager.gui.entry.cracked=Compte Crack
+account_manager.gui.entry.microsoft=Compte Microsoft
+account_manager.gui.entry.top_stats=Grade: %s  Niveau: %d
+account_manager.gui.entry.loading_profile=Chargement du profile ...
+account_manager.gui.entry.banned_on=Banni sur %s
+account_manager.gui.entry.permanently_banned=Banni à vie
+account_manager.gui.entry.unbanned_in=Déban dans %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Gestionnaire de Compte
+account_manager.login_handling.logging_in.notification.body=Connexion au compte ...
+account_manager.login_handling.invalid_account.notification.body=Ce compte est invalide, connexion impossible!
+account_manager.login_handling.invalid_credentials.notification.body=Identifiants incorrects!
+account_manager.login_handling.logged_in.notification.body=Connecte avec le Compte: %s
+account_manager.marked_as_banned.notification.body=Définir le compte banni
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Gestionnaire de Compte
+account_manager.generating_account.notification.body=Génération du compte...
+account_manager.thealtening.invalid_token.notification.title=Gestionnaire de Compte
+account_manager.thealtening.invalid_token.notification.body=Le token n'est pas enregistré! Veuillez entrer un token valide.
+account_manager.thealtening.unable_to_generate.notification.title=Erreur
+account_manager.thealtening.unable_to_generate.notification.body=Impossible de générer le compte. Token invalide?
+account_manager.thealtening.generated.notification.title=Succès
+account_manager.thealtening.generated.notification.body=Compte généré %s
+
+# Game - Greeting Message
+greeting.line_1=Bienvenue sur %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=Pour lier une touche à un module, tappez ".bind <module> <key>" dans le chat
+greeting.line_4=  Aditionellement, vous pouvez lier des modules dans le ClickGUI
+greeting.line_5=  en pressant la molette de la souris.
+greeting.line_6=Pour avoir de l'aide pour les commandes, tappez ".help" dans le chat
+greeting.line_7=Pour télécgarger des configs depuis le serveur Discord, copiez
+greeting.line_8=le lien de la config et tappez ".cfg download <lien>" dans le chat
+
+# Game - Command errors
+command.wrong_command=§cCommande introuvable.
+command.similar_commands=§cCommandes similaires:
+command.wrong_arguments=§cMauvais arguments de commande.
+command.error=§cImpossible d'exécuter la commande. Regardez la syntaxe et réessayez.
+
+# Game - Toggle
+command.toggle.on=Module §3'%s'§7 est §aACTIVÉ§7.
+command.toggle.off=Module §3'%s'§7 was toggled §cDÉSACTIVÉ§7.
+command.toggle.not_found=§cModule '%s' introuvable.
+
+# Game - Binds
+command.bind.unbound=Module §3'%s' §7à été dé-lié.
+command.bind.bound=Module §3'%s' §7est lié à §3'%s'§7, méthode§7 d'activation: §3%s§7.
+command.bind.wrong_key=§cMauvaise touche!
+command.bind.wrong_feature_name=§cNom de module introuvable!
+command.bind.bindlist_empty=La liste des liaison de touches est vide.
+command.bind.cleared=La liste des liaison de touches à été vidée.
+command.bind.invalid_press_type=§cMauvais type de pression: %s.
+command.bind.press_type.press=Presser
+command.bind.press_type.hold=Tenir
+
+# Game - Configs
+command.config.listempty=La liste de configuration est vide.
+command.config.cfglist=Configurations(§3%s§7): §3%s
+command.config.cfg_not_found=La Configuration §3'%s'§7 introuvable!
+command.config.cfg_already_exists=La Config §3'%s'§7 existe déjà.
+command.config.cfg_already_exists2=Utilisez §3'.cfg save <nom> force'§7 pour la ré-écrire.
+command.config.cfg_saved=La Configuration §3'%s'§7 sauvegardée.
+command.config.cfg_loaded=La Configuration §3'%s'§7 à été chargée.
+command.config.reset=La Configuration à bien été réinitialisée.
+
+# Game - Relations
+command.relations.added=§fAjouté %s comme §a%s§f!
+command.relations.invalid_type=§cMauvais type de relation: §7%s. §cTypes supportés: §7friend, target
+command.relations.io_error=§cImpossible de sauvegarder la Relation à cause d'une erreur.
+command.relations.list=§fRelations §7(%d):
+command.relations.list_filter=§fRelations - §a%s §7(%d):
+command.relations.list_empty=Il n'y a pas de relations.
+command.relations.list_empty_filter=Aucune relations de type §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§7%s §cRetiré de la liste de relations.
+command.relations.clear=§fToutes les relations ont étés vidées
+command.relations.clear_filter=§fToutes les relations de type %s ont été retiré !
+command.relations.help_p1=§f .t/.f sont des commandes qui spécifient le type de relation -
+command.relations.help_p2=§f vous n'avez donc pas besoin de spécifier [type] si vous l'utilisez!
+
+# Game - Plugins
+command.plugins.req_sent=§7Essai de rechercher des plugins ...
+command.plugins.not_found=§cAucun plugin trouvé.
+command.plugins.no_response=§cAucun plugin trouvé §7(le serveur n'a pas répondu)
+command.plugins.list=§bPlugins: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=Liste de messages:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Messages retirés.
+command.gen_messages.added=Message ajouté.
+command.gen_messages.removed=Message retiré.
+command.gen_messages.remove_out_of_bounds=Index invalide. Tappez %s list pour voir la liste des messages
+
+command.gen_messages.usage_1=.%s list - liste les messages
+command.gen_messages.usage_2=.%s clear - retire les messages
+command.gen_messages.usage_3=.%s add <message> - ajoute une message
+command.gen_messages.usage_4=.%s remove <index> - retire un message
+command.gen_messages.usage_5=.%s browse - ouvre l'endroit ou est stoqué le message
+
+command.gen_messages.usage_ph=Variables utilisables dans les messages:
+command.gen_messages.usage_ph_1= {c_version} - version du client
+command.gen_messages.usage_ph_2= {c_build} - date de sortie du client
+command.gen_messages.usage_ph_3= {u_username} - votre nom d'utilisateur
+command.gen_messages.usage_ph_4= {u_uid} - vutre uid
+
+command.killsults.ph_1= {player} - le nom du joueur
+
+command.setting.help_append_silent=§fAjoutez §b-s§f à la fin de votre commande pour le rendre silencieux.
+command.setting.invalid_signature=§cMauvaise touche pour les paramètres.
+command.setting.parse_failed=§cImpossible de sortir la valeur du paramètre: expected a §f%s§c, got §f%s§c.
+command.setting.type_number=nombre
+command.setting.type_decimal=nombre décimal
+command.setting.invalid_value=§cImpossible de définir la valeur du paramètre: %s.
+command.setting.mcb.updated_value=§fLe statut de §b%s§f est définit sur §b%s§f.
+command.setting.color.invalid_rgb=§Couleur RGB invalide: un argument de type 255,255,255 est attendu.
+command.setting.invalid_type=§cType de paramètre invalide: %s.
+command.setting.updated_value=§fLa valeur de §b%s§f à été définit sur §b%s§f.
+command.setting.updated_value_generic=§fValeur de §b%s§f à été mis jour.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=À été désactivé à cause de %s
+feature.auto_disable.notification.enabled_due=Est activé parce que %s à été désactivé
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Pas disponible sur %s
+feature.disabler.notification.fly.text=Vous pouvez voler (et pas comme un arabe)!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Temps de jeu
+feature.hypixelstats.kills=Kills
+feature.hypixelstats.wins=Victoires
+feature.hypixelstats.games_played=Parties jouées
+feature.hypixelstats.staff_bans_since_login=Banissements totaux
+feature.hypixelstats.notification.not_available.text=Pas disponible %s
+feature.hypixelstats.notification.not_available.singleplayer=en solo
+feature.hypixelstats.notification.not_available.server=sur %s
+feature.hypixelstats.notification.ban_status.title=Comtrole de Modérateurs
+feature.hypixelstats.notification.ban_status.banned=Les modérateurs ont banni %d joueurs les dernières %s
+feature.hypixelstats.notification.ban_status.unbanned=Les modérateurs ont déban %d joueurs les dernières %s
+feature.hypixelstats.notification.ban_status.not_changed=Les modérateurs n'ont banni personne les dernières %s
+feature.hypixelstats.error.initial_ban_check_failed=Impossible de compléter le controle. Réessayez plus tard
+feature.hypixelstats.error.ban_check_failed=Vérification de ban échouée: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=Désactivé suite à la fin d'une partie
+feature.killaura.disable_rules.notification.world_change=Désactivé suite à un changement de monde
+feature.killaura.disable_rules.notification.death=Désactivé suite à une mort
+
+# Game - Notifications
+notification.type.info=Information
+notification.type.warning=Avertissement
+notification.type.error=Erreur
+notification.type.success=Succès
+
+notification.text.feature_enabled=Module '%s' à été activé
+notification.text.feature_disabled=Module '%s' à été désactivé
+
+# Game - LagDetector
+feature.lagdetector.msg=Problème de connexion!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Téléportation dans la prochaine partie dans %sms
+feature.autohypixel.auto_phase.notification.phased=Tentative de phase automatique
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Aucune connexion avec discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" à besoin d'un arc dans l'inventaire
+
+# Game - Speed
+feature.speed.notification.lag_back=Désactivé à cause d'une téléportation
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=Scaffold activé pour empêcher une mort dans le vide
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=Désactivé suite à la fin d'une partie
+feature.autoarmor.disable_rules.notification.world_change=Désactivé suite à un changement de monde
+feature.autoarmor.disable_rules.notification.death=Désactivé suite à une mort
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Désactivé suite à la fin d'une partie
+feature.inventorymanager.disable_rules.notification.world_change=Désactivé suite à un changement de monde
+feature.inventorymanager.disable_rules.notification.death=Désactivé suite à une mort
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Désactivé suite à la fin d'une partie
+feature.scaffold.disable_rules.notification.world_change=Désactivé suite à un changement de monde
+feature.scaffold.disable_rules.notification.death=Désactivé suite à une mort
