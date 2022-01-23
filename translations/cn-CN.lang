@@ -1,0 +1,241 @@
+# Main Menu
+main_menu.gui.singleplayer=单人世界
+main_menu.gui.multiplayer=多人世界
+main_menu.gui.alt_manager=账号管理
+main_menu.gui.options=设置
+main_menu.gui.quit_game=退出游戏
+main_menu.gui.documentation=文档
+main_menu.gui.switch_image=更换照片
+main_menu.gui.release_build=正式版 %s
+
+# Account Manager - Main Page
+account_manager.gui.header=账号管理
+account_manager.gui.log_in.button=登录
+account_manager.gui.add_alt.button=添加
+account_manager.gui.remove_alt.button=删除
+account_manager.gui.direct_login.button=直接登录
+account_manager.gui.generate.button=生成
+account_manager.gui.thealtening.button=The Altening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening 设置
+account_manager.gui.thealtening.token=TheAltening 代币
+account_manager.gui.thealtening.copy_token=复制免费账号令牌
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=添加账号
+account_manager.gui.add_account.add=添加账号
+account_manager.gui.account_action.email=邮箱 / 用户名
+account_manager.gui.account_action.password=密码
+account_manager.gui.account_action.import=从剪贴板导入
+account_manager.gui.account_action.random_cracked=随机
+account_manager.gui.account_action.microsoft_account=添加微软账号
+
+account_manager.notification.login.empty_account.body=无法添加空帐户
+account_manager.notification.login.import_error.body=错误的导入格式！
+
+
+account_manager.gui.account_action.microsoft_account.title=正在添加账号......
+account_manager.gui.account_action.microsoft_account.body=已打开一个窗口供您登录
+account_manager.gui.account_action.microsoft_account.cancel=取消
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=直接登录
+account_manager.gui.direct_login.login=登录
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<未知>
+account_manager.gui.entry.cracked=非是正版账号
+account_manager.gui.entry.microsoft=微软账号
+account_manager.gui.entry.top_stats=会员: %s  等级: %d
+account_manager.gui.entry.loading_profile=正在载入 配置文件...
+account_manager.gui.entry.banned_on=封禁时间 %s
+account_manager.gui.entry.permanently_banned=永久封禁(安全警报)
+account_manager.gui.entry.unbanned_in=解封时间 %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=账户管理器
+account_manager.login_handling.logging_in.notification.body=正在登录账户......
+account_manager.login_handling.invalid_account.notification.body=此账户无效,您无法登录！
+account_manager.login_handling.invalid_credentials.notification.body=无效的账号!
+account_manager.login_handling.logged_in.notification.body=成功登入! 用户名: %s
+account_manager.marked_as_banned.notification.body=此账户被标记禁用,无法使用
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=账户管理器
+account_manager.generating_account.notification.body=正在生成帐户...
+account_manager.thealtening.invalid_token.notification.title=账户管理器
+account_manager.thealtening.invalid_token.notification.body=未指定ToKen！请输入有效的Token.
+account_manager.thealtening.unable_to_generate.notification.title=错误
+account_manager.thealtening.unable_to_generate.notification.body=无法生成帐户. Token无效
+account_manager.thealtening.generated.notification.title=成功
+account_manager.thealtening.generated.notification.body=生成帐户 %s
+
+# Game - Greeting Message
+greeting.line_1=欢迎来到 %s %s
+greeting.line_2=--------------------------------------------
+To bind modules, type ".bind <module> <key>" in chat = 请在聊天框内输入"<.bind 功能名称>  <需要绑定的按键>"
+greeting.line_4=此外，您还可以在ClickGUI中绑定模块
+greeting.line_5=按下鼠标中键
+greeting.line_6=如果需要命令帮助 请在聊天框内输入.help
+greeting.line_7=要从Discord服务器下载配置，请复制下载链接
+greeting.line_8=将配置链接粘贴在聊天框中,并输入“.cfg download <链接>”
+
+# Game - Command errors
+command.wrong_command=§c指令未找到
+command.similar_commands=§c类似命令:
+command.wrong_arguments=§c错误的命令！
+command.error=§c无法执行命令。请检查语法，然后重试。
+
+# Game - Toggle
+command.toggle.on=功能 §3'%s'§7 被切换 §aON§7.
+command.toggle.off=功能 §3'%s'§7 被切换 §cOFF§7.
+command.toggle.not_found=§c功能 '%s' 未找到.
+
+# Game - Binds
+command.bind.unbound=Feature §3'%s' §7未绑定.
+command.bind.bound=Feature §3'%s' §7被绑定到 §3'%s'§7, activation§7 method: §3%s§7.
+command.bind.wrong_key=§c未知按键!
+command.bind.wrong_feature_name=§c未知功能!
+command.bind.bindlist_empty=绑定列表为空.
+command.bind.cleared=绑定列表被清空.
+command.bind.invalid_press_type=§无效的类型: %s.
+command.bind.press_type.press=按
+command.bind.press_type.hold=hold
+
+# Game - Configs
+command.config.listempty=配置列表为空. 
+command.config.cfglist=配置(§3%s§7): §3%s
+command.config.cfg_not_found=配置 §3'%s'§7 不存在！
+command.config.cfg_already_exists=配置 §3'%s'§7 已经存在
+command.config.cfg_already_exists2=使用命令 §3'.cfg save <配置名称> 去保存它
+command.config.cfg_saved=配置 §3'%s'§7 保存成功.
+command.config.cfg_loaded=配置 §3'%s'§7 加载成功.
+command.config.reset=配置已经重置.
+
+# Game - Relations
+command.relations.added=§f添加 %s 为 §a%s§f!
+command.relations.invalid_type=§c无效的关联类型: §7%s. §c支持的类型：§7朋友，目标
+command.relations.io_error=§c由于出现错误，无法保存关系。
+command.relations.list=§f关联 §7(%d):
+command.relations.list_filter=§f关联 - §a%s §7(%d):
+command.relations.list_empty=没有关联。
+command.relations.list_empty_filter=没有类型的关联 §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§c已从关联列表中删除§7%s§c。
+command.relations.clear=§f移除所有关联!
+command.relations.clear_filter=§f移除所有关联! 关于 type %s!
+command.relations.help_p1=§f .t/.f 是指定关联类型的命令-
+command.relations.help_p2=§f 如果使用它们，则不需要指定[type]！
+
+# Game - Plugins
+command.plugins.req_sent=§7正在尝试查找插件...
+command.plugins.not_found=§c插件不存在.
+command.plugins.no_response=§c未找到插件§7（服务器未响应）
+command.plugins.list=§b插件: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=消息列表：
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=消息被清除。
+command.gen_messages.added=添加消息。
+command.gen_messages.removed=消息已删除。
+command.gen_messages.remove_out_of_bounds=索引不正确。键入 %s 列表 以查看索引
+
+command.gen_messages.usage_1=.%s 列表-列出消息
+command.gen_messages.usage_2=.%s 清除-清除消息
+command.gen_messages.usage_3=.%s 添加<消息>-添加消息
+command.gen_messages.usage_4=.%s 删除<index>-删除消息
+command.gen_messages.usage_5=.%s 浏览-打开邮件文件位置
+
+command.gen_messages.usage_ph=信息中的空格持有人：
+command.gen_messages.usage_ph_1= {c_version} - 端 版本
+command.gen_messages.usage_ph_2= {c_build} - 端 更新日期
+command.gen_messages.usage_ph_3= {u_username} - 你的 用户名
+command.gen_messages.usage_ph_4= {u_uid} - 你的 UID
+
+command.killsults.ph_1= {player} - 玩家的名称
+
+command.setting.help_append_silent=§fAppend §b-s§f 在命令末尾删除输出。
+command.setting.invalid_signature=§c设置键无效。
+command.setting.parse_failed=§c无法分析设置值：应为 §f%s§c, got §f%s§c.
+command.setting.type_number=数字
+command.setting.type_decimal=十进制数
+command.setting.invalid_value=§c无法设置设置项: %s.
+command.setting.mcb.updated_value=§fState of §b%s§f was set to §b%s§f.
+command.setting.color.invalid_rgb=§cInvalid RGB color value: expected an argument like 255,255,255.
+command.setting.invalid_type=§有效设置 type: %s.
+command.setting.updated_value=§fValue of §b%s§f was set to §b%s§f.
+command.setting.updated_value_generic=§fValue of §b%s§f was updated.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=由于以下原因而被禁用： %s
+feature.auto_disable.notification.enabled_due=已启用，因为 %s 被关闭
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=不适用于 %s
+feature.disabler.notification.fly.text=您现在可以使用 飞行功能 了
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=游戏时间
+feature.hypixelstats.kills=击杀人数
+feature.hypixelstats.wins=赢得游戏
+feature.hypixelstats.games_played=游戏场数
+feature.hypixelstats.staff_bans_since_login=已经封禁
+feature.hypixelstats.notification.not_available.text=无法使用的 %s
+feature.hypixelstats.notification.not_available.singleplayer=在单人游戏
+feature.hypixelstats.notification.not_available.server=在 %s
+feature.hypixelstats.notification.ban_status.title=客服 检测
+feature.hypixelstats.notification.ban_status.banned=客服封禁 %d 玩家 自从上次检测 %s
+feature.hypixelstats.notification.ban_status.unbanned=客户解封 %d 自从上次检测 %s
+feature.hypixelstats.notification.ban_status.not_changed=客服封禁人数自从上次检测 %s
+feature.hypixelstats.error.initial_ban_check_failed=无法完成初始禁止检查。稍后重试
+feature.hypixelstats.error.ban_check_failed=检查禁止请求失败: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=由于游戏结束而被关闭
+feature.killaura.disable_rules.notification.world_change=由于世界变化而被关闭
+feature.killaura.disable_rules.notification.death=由于死亡而被关闭
+
+# Game - Notifications
+notification.type.info=信息
+notification.type.warning=警告
+notification.type.error=错误
+notification.type.success=成功
+
+notification.text.feature_enabled=功能 '%s' 开启
+notification.text.feature_disabled=功能 '%s' 关闭
+
+# Game - LagDetector
+feature.lagdetector.msg=链接错误!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=进入下一局游戏在 %sms 之后
+feature.autohypixel.auto_phase.notification.phased=试图逃脱笼子
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=与Discord无关
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" 背包中需要一个弓
+
+# Game - Speed
+feature.speed.notification.lag_back=由于lag而被禁用
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=启用自动搭路以防止因无效而死亡
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=由于游戏结束而被关闭
+feature.autoarmor.disable_rules.notification.world_change=由于游戏结束而被禁用
+feature.autoarmor.disable_rules.notification.death=由于死亡而被关闭
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=由于游戏结束而被关闭
+feature.inventorymanager.disable_rules.notification.world_change=由于游戏结束而被禁用
+feature.inventorymanager.disable_rules.notification.death=由于死亡而被关闭
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=由于游戏结束而被关闭
+feature.scaffold.disable_rules.notification.world_change=由于游戏结束而被禁用
+feature.scaffold.disable_rules.notification.death=由于死亡而被关闭
