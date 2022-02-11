@@ -1,0 +1,240 @@
+# Main Menu
+main_menu.gui.singleplayer=Μονος παιχτης
+main_menu.gui.multiplayer=Πολλοι παιχτης
+main_menu.gui.alt_manager=Διαχειριστής λογαριασμού
+main_menu.gui.options=Ρυθμήσεις
+main_menu.gui.quit_game=Έξοδος Παιχνιδιού
+main_menu.gui.documentation=Τεκμηρίωση
+main_menu.gui.switch_image=Εναλλαγή εικόνας
+main_menu.gui.release_build=Έκδοση %s
+
+# Account Manager - Main Page
+account_manager.gui.header=Διαχειριστής λογαριασμού
+account_manager.gui.log_in.button=Σύνδεση
+account_manager.gui.add_alt.button=Προσθήκη Alt
+account_manager.gui.remove_alt.button=Διαγραφή Alt
+account_manager.gui.direct_login.button=απευθείας σύνδεση
+account_manager.gui.generate.button=Παράγω
+account_manager.gui.thealtening.button=TheAltening...
+
+# Account Manager - TheAltening Settings
+account_manager.gui.thealtening.title=TheAltening Ρυθμίσεις
+account_manager.gui.thealtening.token=TheAltening token
+account_manager.gui.thealtening.copy_token=Αντιγραφή δωρεάν Alt Token
+
+# Account Manager - Add Alt
+account_manager.gui.add_account.title=Προσθήκη λογαριασμού
+account_manager.gui.add_account.add=Προσθήκη λογαριασμού
+account_manager.gui.account_action.email=Ηλεκτρονική Διεύθηνση / όνομα χρήστη
+account_manager.gui.account_action.password=Κωδικός πρόσβασης
+account_manager.gui.account_action.import=Εισαγωγή από το πρόχειρο
+account_manager.gui.account_action.random_cracked=Τυχαία Cracked
+account_manager.gui.account_action.microsoft_account=Προσθήκη λογαριασμού Microsoft
+
+account_manager.notification.login.empty_account.body=Δεν είναι δυνατή η προσθήκη κενού λογαριασμού
+account_manager.notification.login.import_error.body=Κακή μορφή εισαγωγής!
+
+account_manager.gui.account_action.microsoft_account.title=Προσθήκη λογαριασμού…
+account_manager.gui.account_action.microsoft_account.body=Άνοιξε ένα παράθυρο για να συνδεθείτε
+account_manager.gui.account_action.microsoft_account.cancel=Ματαίωση
+
+# Account Manager - Direct Login
+account_manager.gui.direct_login.title=Απευθείας Είσοδος
+account_manager.gui.direct_login.login=Σύνδεση
+
+# Account Manager - Account List
+account_manager.gui.entry.unknown_name=<Άγνωστο>
+account_manager.gui.entry.cracked=Cracked λογαριασμός
+account_manager.gui.entry.microsoft=Microsoft λογαριασμός
+account_manager.gui.entry.top_stats=σειρά κατάταξης: %s  Επίπεδο: %d
+account_manager.gui.entry.loading_profile=Φόρτωση προφίλ...
+account_manager.gui.entry.banned_on=Απαγορευμένος στο %s
+account_manager.gui.entry.permanently_banned=Μόνιμα απαγορευμένο
+account_manager.gui.entry.unbanned_in=Μη απαγορευμένο σε %02d:%02d:%02d:%02d
+
+# Account Manager - Login Notifications
+account_manager.login_handling.notification.title=Διαχειριστής λογαριασμού
+account_manager.login_handling.logging_in.notification.body=Σύνδεση στο λογαριασμό...
+account_manager.login_handling.invalid_account.notification.body=Αυτός ο λογαριασμός δεν είναι έγκυρος, δεν μπορείτε να συνδεθείτε σε αυτόν!
+account_manager.login_handling.invalid_credentials.notification.body=Ακυρα διαπιστευτήρια!
+account_manager.login_handling.logged_in.notification.body=Συνδεδεμένοι! Όνομα χρήστη: %s
+account_manager.marked_as_banned.notification.body=Επισημάνθηκε ο λογαριασμός ως αποκλεισμένος
+
+# Account Manager - TheAltening Notifications
+account_manager.generating_account.notification.title=Διαχειριστής λογαριασμού
+account_manager.generating_account.notification.body=Δημιουργία λογαριασμού...
+account_manager.thealtening.invalid_token.notification.title=Διαχειριστής λογαριασμού
+account_manager.thealtening.invalid_token.notification.body=Token δεν προσδιορίζεται! Εισαγάγετε ένα έγκυρο διακριτικό
+account_manager.thealtening.unable_to_generate.notification.title=Λάθος
+account_manager.thealtening.unable_to_generate.notification.body=Δεν ήταν δυνατή η δημιουργία του λογαριασμού. Μη έγκυρο Token?
+account_manager.thealtening.generated.notification.title=Επιτυχία
+account_manager.thealtening.generated.notification.body=Δημιουργήθηκε λογαριασμός %s
+
+# Game - Greeting Message
+greeting.line_1=Καλωσόρισες στο %s %s
+greeting.line_2=--------------------------------------------
+greeting.line_3=Για να συνδέσετε μονάδες, πληκτρολογήστε ".bind <module> <key>" στη συνομιλία
+greeting.line_4=  Επιπλέον, μπορείτε να συνδέσετε λειτουργικές Binds στο ClickGUI
+greeting.line_5=  πατώντας το μεσαίο κουμπί του ποντικιού.
+greeting.line_6=Για βοήθεια σχετικά με εντολές, πληκτρολογήστε ".help" στη συνομιλία
+greeting.line_7=Για λήψη παραμέτρων από τον διακομιστή Discord, αντιγράψτε
+greeting.line_8=τον σύνδεσμο Config και πληκτρολογήστε ".cfg download <link>" στη συνομιλία
+
+# Game - Command errors
+command.wrong_command=§cΗ εντολή δεν βρέθηκε.
+command.similar_commands=§cΠαρόμοιες εντολές:
+command.wrong_arguments=§cΛάθος επιχειρήματα εντολών!
+command.error=§cΔεν είναι δυνατή η εκτέλεση της εντολής. Ελέγξτε τη σύνταξη και δοκιμάστε ξανά.
+
+# Game - Toggle
+command.toggle.on=Feature §3'%s'§7 ήταν εναλλαγή §aON§7.
+command.toggle.off=Feature §3'%s'§7 ήταν εναλλαγή §cOFF§7.
+command.toggle.not_found=§cFeature '%s' δεν βρέθηκε.
+
+# Game - Binds
+command.bind.unbound=Feature §3'%s' §7ήταν unbind.
+command.bind.bound=Feature §3'%s' §7ήταν bound σε §3'%s'§7, ενεργοποίηση§7 μέθοδος: §3%s§7.
+command.bind.wrong_key=§cΛάθος κωδικός κλειδιού!
+command.bind.wrong_feature_name=§cΛάθος όνομα χαρακτηριστικού!
+command.bind.bindlist_empty=Η λίστα Bind είναι κενή.
+command.bind.cleared=Bind λίστα εκκαθαρίστηκε.
+command.bind.invalid_press_type=§cΜη έγκυρος τύπος τύπου: %s.
+command.bind.press_type.press=Πατήστε μία φορά
+command.bind.press_type.hold=Πατήστε πατημένα
+
+# Game - Configs
+command.config.listempty=Η λίστα Config είναι κενή.
+command.config.cfglist=Configs(§3%s§7): §3%s
+command.config.cfg_not_found=Config §3'%s'§7 δεν βρέθηκε!
+command.config.cfg_already_exists=Config §3'%s'§7 υπάρχει ήδη.
+command.config.cfg_already_exists2=Use §3'.cfg save <name> force'§7 to rewrite it.
+command.config.cfg_saved=Config §3'%s'§7 was saved.
+command.config.cfg_loaded=Config §3'%s'§7 αποθηκεύτηκε..
+command.config.reset=Config έχει γίνει επαναφορά.
+
+# Game - Relations
+command.relations.added=§fΠροστέθηκε %s as §a%s§f!
+command.relations.invalid_type=§cΜη έγκυρος τύπος: §7%s. §cΥποστηριζόμενοι τύποι: §7φίλος, στόχος
+command.relations.io_error=§cΔεν ήταν δυνατή η αποθήκευση των Σχέσεων λόγω σφάλματος.
+command.relations.list=§fΣχέσεις §7(%d):
+command.relations.list_filter=§fΣχέσεις - §a%s §7(%d):
+command.relations.list_empty=Δεν υπάρχουν σχέσεις.
+command.relations.list_empty_filter=Δεν υπάρχουν σχέσεις τύπου §a%s
+command.relations.list_entry=(%d) §b%s §7-> §a%s
+command.relations.removed=§cRemoved §7%s §cΑπο λίστα σχέσεων.
+command.relations.clear=§fΚαταργήθηκαν όλες οι σχέσεις!
+command.relations.clear_filter=§fΚαταργήθηκαν όλες οι σχέσεις τύπου %s!
+command.relations.help_p1=§f .t/.f είναι εντολές που καθορίζουν τον τύπο της σχέσης -
+command.relations.help_p2=§f δεν χρειάζεται να προσδιορίσετε [τύπο] εάν τα χρησιμοποιείτε!
+
+# Game - Plugins
+command.plugins.req_sent=§7Προσπάθεια εύρεσης προσθηκών...
+command.plugins.not_found=§cΔεν βρέθηκαν πρόσθετα.
+command.plugins.no_response=§cΔεν βρέθηκαν προσθήκες §7 (ο διακομιστής δεν έχει ανταποκριθεί)
+command.plugins.list=§bPlugins: §r%s
+
+# Game - Spammer & Killsults
+command.gen_messages.list=MΛίστα μηνυμάτων:
+command.gen_messages.list_entry=[%d] %s
+command.gen_messages.cleared=Τα μηνύματα διαγράφηκαν.
+command.gen_messages.added=Το μήνυμα προστέθηκε.
+command.gen_messages.removed=Το μήνυμα καταργήθηκε.
+command.gen_messages.remove_out_of_bounds=Λανθασμένο ευρετήριο. Πληκτρολογήστε %s list για να δείτε τους δείκτες μηνυμάτων
+
+command.gen_messages.usage_1=.%s list - λίστα μηνυμάτων
+command.gen_messages.usage_2=.%s clear - ξεκάθαρα μηνύματα
+command.gen_messages.usage_3=.%s add <message> - προσθέστε ένα μήνυμα
+command.gen_messages.usage_4=.%s remove <δείκτης> - αφαιρέστε ένα μήνυμα
+command.gen_messages.usage_5=.%s browse - ανοίξτε τη θέση του αρχείου μηνυμάτων
+
+command.gen_messages.usage_ph=Placeholders in messages:
+command.gen_messages.usage_ph_1= {c_version} - έκδοση Client
+command.gen_messages.usage_ph_2= {c_build} - client ημερομηνία κατασκευής
+command.gen_messages.usage_ph_3= {u_username} - το όνομα χρήστη σας
+command.gen_messages.usage_ph_4= {u_uid} - το uid σας
+
+command.killsults.ph_1= {player} - όνομα παίκτη
+
+command.setting.help_append_silent=§fΠροσθέστε §b-s§f στο τέλος της εντολής για να αφαιρέσετε την έξοδο.
+command.setting.invalid_signature=§cΜη έγκυρο κλειδί ρύθμισης.
+command.setting.parse_failed=§cΔεν ήταν δυνατή η ανάλυση της τιμής ρύθμισης: αναμενόταν §f%s§c, έλαβε §f%s§c.
+command.setting.type_number=αριθμός
+command.setting.type_decimal=δεκαδικός αριθμός
+command.setting.invalid_value=§cΔεν ήταν δυνατός ο ορισμός της τιμής ρύθμισης: %s.
+command.setting.mcb.updated_value=§fΗ κατάσταση του §b%s§f ορίστηκε σε §b%s§f.
+command.setting.color.invalid_rgb=§cΜη έγκυρη τιμή χρώματος RGB: αναμενόταν ένα όρισμα όπως 255.255.255.
+command.setting.invalid_type=§cΜη έγκυρος τύπος ρύθμισης: %s.
+command.setting.updated_value=§fΑξία του §b%s§f ορίστηκε σε §b%s§f.
+command.setting.updated_value_generic=§fΑξία του §b%s§f ενημερώθηκε.
+
+# Game - Auto Disable
+feature.auto_disable.notification.disabled_due=Απενεργοποιήθηκε λόγω %s
+feature.auto_disable.notification.enabled_due=Ενεργοποιήθηκε επειδή %s ήταν απενεργοποιημένη
+
+# Game - Disabler
+feature.disabler.notification.not_available.text=Μη διαθέσιμο στις %s
+feature.disabler.notification.fly.text=Μπορείτε να πετάξετε τώρα!
+
+# Game - HypixelStats
+feature.hypixelstats.play_time=Χρόνος παιχνιδιού
+feature.hypixelstats.kills=Παίκτες που σκότωσες
+feature.hypixelstats.wins=Νίκες
+feature.hypixelstats.games_played=Παιχνίδια που παίχτηκαν
+feature.hypixelstats.staff_bans_since_login=Συνολικές απαγορεύσεις
+feature.hypixelstats.notification.not_available.text=Μη διαθέσιμος %s
+feature.hypixelstats.notification.not_available.singleplayer=σε Μονος παιχτης
+feature.hypixelstats.notification.not_available.server=σε %s
+feature.hypixelstats.notification.ban_status.title=μόνο το προσωπικό
+feature.hypixelstats.notification.ban_status.banned=Το προσωπικό έχει απαγορευσεί %d παίκτες από το τελευταίο %s
+feature.hypixelstats.notification.ban_status.unbanned=Το προσωπικό μη απαγορευμένο %d παίκτες από το τελευταίο  %s
+feature.hypixelstats.notification.ban_status.not_changed=Το προσωπικό δεν έχει απαγορεύσει σε κανέναν από τότεt %s
+feature.hypixelstats.error.initial_ban_check_failed=Δεν είναι δυνατή η ολοκλήρωση του αρχικού ελέγχου απαγόρευσης. Επανάληψη αργότερα
+feature.hypixelstats.error.ban_check_failed=Το αίτημα απαγόρευσης ελέγχου απέτυχε: %s
+
+# Game - KillAura
+feature.killaura.disable_rules.notification.game_end=Απενεργοποιήθηκε λόγω λήξης του παιχνιδιού
+feature.killaura.disable_rules.notification.world_change=Απενεργοποιήθηκε λόγω της αλλαγής του κόσμου
+feature.killaura.disable_rules.notification.death=Έγινε Απενεργοποίηση λόγω Θανάτου
+
+# Game - Notifications
+notification.type.info=Πληροφορίες
+notification.type.warning=Προειδοποίηση
+notification.type.error=Λάθος
+notification.type.success=Επιτυχία
+
+notification.text.feature_enabled=Feature '%s' ενεργοποιήθηκε
+notification.text.feature_disabled=Feature '%s' απενεργοποιήθηκε
+
+# Game - LagDetector
+feature.lagdetector.msg=Πρόβλημα σύνδεσης!
+
+# Game - AutoHypixel
+feature.autohypixel.auto_play.notification.sending=Σας στέλνω στο επόμενο παιχνίδι %sms
+feature.autohypixel.auto_phase.notification.phased=Προσπάθησε να βγει σταδιακά από το κλουβί
+
+# Game - DiscordRPC
+feature.discordrpc.notification.no_connection=Καμία σύνδεση με το Discord
+
+# Game - LongJump
+feature.longjump.notification.hypixel_bow.bow_required=Mode "HypixelBow" απαιτεί ένα τόξο στο απόθεμα
+
+# Game - Speed
+feature.speed.notification.lag_back=Απενεργοποιήθηκε λόγω καθυστέρησης
+
+# Game - AntiVoid
+feature.antivoid.notification.enabled_scaffold=Ενεργοποιημένο Scaffold για την πρόληψη του θανάτου λόγω κενού
+
+# Game - AutoArmor
+feature.autoarmor.disable_rules.notification.game_end=Απενεργοποιήθηκε λόγω λήξης του παιχνιδιού
+feature.autoarmor.disable_rules.notification.world_change=Απενεργοποιήθηκε λόγω της αλλαγής του κόσμου
+feature.autoarmor.disable_rules.notification.death=Έγινε Απενεργοποίηση λόγω Θανάτου
+
+# Game - InventoryManager
+feature.inventorymanager.disable_rules.notification.game_end=Απενεργοποιήθηκε λόγω λήξης του παιχνιδιού
+feature.inventorymanager.disable_rules.notification.world_change=Απενεργοποιήθηκε λόγω της αλλαγής του κόσμου
+feature.inventorymanager.disable_rules.notification.death=Έγινε Απενεργοποίηση λόγω Θανάτουth
+
+# Game - Scaffold
+feature.scaffold.disable_rules.notification.game_end=Απενεργοποιήθηκε λόγω λήξης του παιχνιδιού
+feature.scaffold.disable_rules.notification.world_change=Απενεργοποιήθηκε λόγω της αλλαγής του κόσμου
+feature.scaffold.disable_rules.notification.death=Έγινε Απενεργοποίηση λόγω Θανάτου
